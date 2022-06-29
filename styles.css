@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+
+
+    /*font-family: 'Righteous', cursive;*/
+    background-color: #eeee;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background-color: #625380;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+
+}
+
+.header__content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hola_somos {
+    background-image: url(./imagenes/pets-g1a65a1eec_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    height: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: italic;
+    text-align: center;
+    font-size: 90px;
+
+}
+
+.content__logotitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content__title {
+    color: #ffff;
+
+
+}
+
+.content__navbar {
+    display: flex;
+}
+
+.content__navbar li {
+    margin: 0 15px;
+}
+
+.content__navbar li a {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.grid_servicios {
+    background-color: #ffff;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+.cardservicios {
+    background-color: rgb(215, 172, 172);
+    color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.cardimg {
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #b9747b;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardimg img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.button {
+    background-color: #625380;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cardservicios_holistica {
+    background-color: rgb(118, 69, 69);
+    color: #dbabb0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.cardimg_holistica_img {
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+    background-color: #b9747b;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardimg_holistica_img img {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.somos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #dbabb0;
+
+}
+
+.somos_texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffff;
+    padding: 20px;
+}
+
+.somos_texto p {
+    font-size: 30px;
+}
+
+.somos_imagen {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.somos_imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar img {
+    display: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+
+}
+
+.footer__explora {
+    margin: 30px;
+}
+
+.footer__explora__logo {
+    margin: 30px;
+}
+
+.menu li a {
+    color: white;
+}
+
+
+.contactanos__datos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactanos__datos h3 {
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 1700px) {
+    .grid_servicios {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 900px;
+    }
+}
+
+@media (max-width:1150px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+        height: 800px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid_servicios {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: 1400px;
+
+    }
+
+    .hola_somos {
+        font-size: 30px;
+    }
+
+    .somos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+@media (max-width:830px) {
+    .header__content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:680px) {
+    .grid_servicios {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        height: 2000px;
+    }
+
+    .cardservicios {
+        width: 200px;
+        height: 300px;
+    }
+
+    .somos_texto p {
+        font-size: 20px;
+    }
+
+    .somos_imagen {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width:470px) {
+    .navbar ul {
+
+        display: none;
+
+
+    }
+
+    .content__logotitle {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .navbar img {
+        display: inline-block;
+        font-size: 50px;
+        margin: 10px;
+
+    }
+
+    .header__content {
+        flex-direction: row;
+    }
+
+    .somos_imagen {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer {
+        font-size: 10px;
+        height: 600px;
+    }
+
+    .footer__explora {
+        margin: 10px;
+
+    }
+
+    .footer__explora__logo img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .menu li img {
+        width: 10px;
+        height: 10px;
+    }
+}
