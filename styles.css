@@ -26,11 +26,23 @@ ul {
 }
 
 .header {
-    background-color: #625380;
+    background-color: white;
     background-size: cover;
     position: sticky;
     top: 0;
+    animation: header_color 5s forwards;
 
+
+}
+
+@keyframes header_color {
+    0% {
+        background-color: #ffff;
+    }
+
+    100% {
+        background-color: #625380;
+    }
 }
 
 .header__content {
@@ -38,6 +50,43 @@ ul {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+}
+
+
+
+.content__logotitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content__title {
+    color: #ffff;
+
+
+
+}
+
+
+
+
+.content__navbar {
+    display: flex;
+}
+
+.content__navbar li {
+    margin: 0 15px;
+}
+
+.content__navbar li a {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.hola_somos_padre {
+    height: 1050px;
+
 }
 
 .hola_somos {
@@ -52,33 +101,23 @@ ul {
     font-style: italic;
     text-align: center;
     font-size: 90px;
-
-}
-
-.content__logotitle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.content__title {
-    color: #ffff;
+    position: relative;
+    animation: hola_somos_imagen 5s forwards;
 
 
 }
 
-.content__navbar {
-    display: flex;
+@keyframes hola_somos_imagen {
+    0% {
+        top: 1050px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
 
-.content__navbar li {
-    margin: 0 15px;
-}
 
-.content__navbar li a {
-    color: #ffff;
-    font-weight: bold;
-}
 
 .grid_servicios {
     background-color: #ffff;
