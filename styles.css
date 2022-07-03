@@ -30,9 +30,23 @@ ul {
     background-size: cover;
     position: sticky;
     top: 0;
-    animation: header_color 5s forwards;
+    animation: header_color 5s forwards, header_transition 5s;
+    z-index: 1;
 
 
+
+}
+
+@keyframes header_transition {
+    0% {
+        top: -100px;
+        position: relative;
+    }
+
+    100% {
+        top: 0px;
+        position: relative;
+    }
 }
 
 @keyframes header_color {
