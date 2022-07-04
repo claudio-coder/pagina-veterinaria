@@ -3,6 +3,9 @@ body {
 
 }
 
+.bloque_quienessomos {
+    width: 100%;
+}
 
 .quienessomos_encabezado {
     background-image: url(./imagenes/perros-gatos-china.jpeg);
@@ -16,8 +19,20 @@ body {
     justify-content: flex-start;
     font-size: 20px;
     font-weight: 200;
+    position: relative;
+    animation: quienessomos_transition 3s forwards;
 
 
+}
+
+@keyframes quienessomos_transition {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
 }
 
 .quienessomos_encabezado h1 {

@@ -1,3 +1,8 @@
+.bloque_contacto {
+    height: 900px;
+}
+
+
 .contacto {
     background-color: #dfd9d9;
     height: 900px;
@@ -7,8 +12,22 @@
     justify-items: center;
     align-items: center;
     justify-content: center;
+    position: relative;
+    animation: contacto_transition 5s forwards;
 
 
+
+
+}
+
+@keyframes contacto_transition {
+    0% {
+        top: 1050px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
 
 .button_mail {
