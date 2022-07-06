@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CENTRO MEDICO VETERINARIO</title>
     <link rel="shortcut icon" href="./imagenes/LOGO 2.jpg" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,20 +38,60 @@
                 <img src="./imagenes/list.png" alt="menu" width="40px" height="40px" />
             </nav>
         </div>
+
+
     </header>
     <main>
         <section>
-
-            <article class="hola_somos_padre">
-                <div class="hola_somos">
-                    <h1>
-                        <span style="color: grey">Hola somos</span>
-                    </h1>
-                    <h1>
-                        <span style="color:#8d3896"> Centro Medico Veterinario Lanús</span>
-                    </h1>
+            <div id="carouselExampleControls" class="carousel carousel-dark slide hola_somos_carousel"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="hola_somos_1">
+                            <h1>
+                                <span style="color: grey">Hola somos</span>
+                            </h1>
+                            <h1>
+                                <span style="color:#8d3896"> Centro Medico Veterinario Lanús</span>
+                            </h1>
+                        </div>
+                        <img src="./imagenes/pets-g1a65a1eec_1920.jpg" class="d-block w-100 carousel_height" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="hola_somos_2">
+                            <h1>
+                                <span style="color: white">Gran variedad de</span>
+                            </h1>
+                            <h1>
+                                <span style="color:white"> especies</span>
+                            </h1>
+                        </div>
+                        <img src="./imagenes/Tortuga rusa.jpeg" class="d-block w-100 carousel_height" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="hola_somos_2">
+                            <h1>
+                                <span style="color: orange">La mejor</span>
+                            </h1>
+                            <h1>
+                                <span style="color:#821c51">atención</span>
+                            </h1>
+                        </div>
+                        <img src="./imagenes/tipos-de-conejos-enanos.jpeg" class="d-block w-100 carousel_height"
+                            alt="...">
+                    </div>
                 </div>
-            </article>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
             <article class="somos">
                 <div class="somos_texto">
@@ -83,7 +125,7 @@
                         <img src="./imagenes/veterinario.png" alt="Consultorio" />
                     </div>
 
-                    <h3>Clinica General</h3>
+                    <h5>Clinica General</h5>
                     <a href="./clinica_general.html" class="button">Ver Más</a>
                 </article>
                 <article class="cardservicios">
@@ -91,7 +133,7 @@
                         <img src="./imagenes/acupuntura.png" alt="Consultorio" />
                         <img src="./imagenes/homeopatia.png" alt="Consultorio" />
                     </div>
-                    <h3>Medicina Holistica</h3>
+                    <h5>Medicina Holistica</h5>
                     <a href="./medicina_holistica.html" class="button">Ver Más</a>
 
                 </article>
@@ -99,28 +141,28 @@
                     <div class="cardimg">
                         <img src="./imagenes/rayos-x.png" alt="Metodos de Diagnostico" />
                     </div>
-                    <h3>Metodo de Diagnostico</h3>
+                    <h5>Metodo de Diagnostico</h5>
                     <a href="./metodos_de_diagnostico.html" class="button">Ver Más</a>
                 </article>
                 <article class="cardservicios">
                     <div class="cardimg">
                         <img src="./imagenes/cirugia.png" alt="Cirugia" />
                     </div>
-                    <h3>Cirugia</h3>
+                    <h5>Cirugia</h5>
                     <a href="./cirugia.html" class="button">Ver Más</a>
                 </article>
                 <article class="cardservicios">
                     <div class="cardimg">
                         <img src="./imagenes/medicina.png" alt="Farmacia" />
                     </div>
-                    <h3>Farmacia</h3>
+                    <h5>Farmacia</h5>
                     <a href="./farmacia.html" class="button">Ver Más</a>
                 </article>
                 <article class="cardservicios">
                     <div class="cardimg">
                         <img src="./imagenes/banos.png" alt="Baños" />
                     </div>
-                    <h3>Baños y Peluquería</h3>
+                    <h5>Baños y Peluquería</h5>
                     <a href="./baños_peluqueria.html" class="button">Ver Más</a>
                 </article>
             </div>
