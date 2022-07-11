@@ -6,9 +6,6 @@
 
 body {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
-
-
-    /*font-family: 'Righteous', cursive;*/
     background-color: #eeee;
 
 }
@@ -26,21 +23,20 @@ ul {
 }
 
 .header {
-    /* background-color: white; */
     background-color: #625380;
-    /* background-color: linear-gradient(45deg, #513b7b, #917ac0); */
     background-size: cover;
     position: sticky;
     top: 0;
-    /* animation: header_color 5s forwards, header_transition 5s; */
     animation: header_transition 5s;
-
     z-index: 1;
     color: #ffff;
-
-
-
 }
+
+.header a:hover {
+    color: #821c51;
+}
+
+
 
 @keyframes header_transition {
     0% {
@@ -60,7 +56,6 @@ ul {
     }
 
     100% {
-        /* background-color: #625380; */
         background-color: linear-gradient(45deg, #513b7b, #917ac0);
     }
 }
@@ -76,11 +71,11 @@ ul {
 }
 
 .header__content_2 {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     width: 100%;
-    justify-content: flex-end;
-    align-items: center;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
     background-color: linear-gradient(45deg, #513b7b, #917ac0);
 
 }
@@ -101,13 +96,7 @@ ul {
 
 .content__title {
     color: #ffff;
-
-
-
 }
-
-
-
 
 .content__navbar {
     display: flex;
@@ -138,6 +127,10 @@ ul {
 
 }
 
+.somos_imagen_img {
+    height: 400px;
+}
+
 .hola_somos_1 h1 {
     font-style: italic;
     font-size: 90px;
@@ -149,8 +142,6 @@ ul {
     position: absolute;
     width: 100%;
     padding: 20px;
-
-
 }
 
 .hola_somos_2 h1 {
@@ -421,6 +412,7 @@ ul {
         font-size: 50px;
 
     }
+
 }
 
 @media (max-width:830px) {
@@ -473,13 +465,6 @@ ul {
 }
 
 @media (max-width:470px) {
-    .navbar ul {
-
-        display: none;
-
-
-    }
-
     .content__logotitle {
         flex-direction: column;
         align-items: flex-start;
@@ -493,11 +478,8 @@ ul {
 
     }
 
-    .header__content {
-        flex-direction: row;
-    }
 
-    .somos_imagen {
+    .somos_imagen_img {
         width: 300px;
         height: 300px;
     }

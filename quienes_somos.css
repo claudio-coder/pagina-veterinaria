@@ -86,8 +86,10 @@ body {
     font-weight: 300;
     letter-spacing: 0px;
     width: 300px;
+}
 
-
+.especialistas__menu li p {
+    margin: 0px;
 }
 
 .quienes__somos {
@@ -110,7 +112,7 @@ body {
 }
 
 .quienes__somos ul li p {
-    margin-left: 10px;
+    margin: 0px 0px 0px 10px;
 }
 
 
@@ -167,6 +169,10 @@ body {
         font-size: 15px;
         height: 350px;
 
+    }
+
+    .quienessomos_encabezado {
+        flex-direction: column;
     }
 
     .especialistas p {
