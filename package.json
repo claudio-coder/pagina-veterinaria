@@ -1,0 +1,22 @@
+{
+  "name": "pagina-vete",
+  "version": "1.0.0",
+  "description": "Proyecto Veterinaria",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudio-coder/pagina-veterinaria.git"
+  },
+  "author": "Claudio Cabanas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudio-coder/pagina-veterinaria/issues"
+  },
+  "homepage": "https://github.com/claudio-coder/pagina-veterinaria#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
