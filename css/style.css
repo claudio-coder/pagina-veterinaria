@@ -24,15 +24,12 @@ ul {
   animation: header_transition 5s;
   z-index: 1;
   color: #fff; }
-  f .header a:hover {
-    color: #821c51; }
   .header__content {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
-    background-color: linear-gradient(45deg, #513b7b, #917ac0);
     color: #fff; }
   .header__content_2 {
     width: 100%; }
@@ -40,6 +37,9 @@ ul {
     color: #fff; }
   .header__servicios {
     background-color: #917ac0; }
+  .header a:hover {
+    color: orange;
+    text-decoration: underline; }
 
 @keyframes header_transition {
   0% {
@@ -49,12 +49,6 @@ ul {
     top: 0px;
     position: relative; } }
 
-@keyframes header_color {
-  0% {
-    background-color: #ffff; }
-  100% {
-    background-color: linear-gradient(45deg, #513b7b, #917ac0); } }
-
 .hola_somos_1 {
   display: flex;
   flex-direction: row;
@@ -63,23 +57,21 @@ ul {
   position: absolute;
   width: 100%;
   padding: 20px; }
+  .hola_somos_1 h1 {
+    font-style: italic;
+    font-size: 90px;
+    font-family: 'Righteous', cursive; }
 
 .somos_imagen_img {
   height: 400px; }
-
-.hola_somos_1 h1 {
-  font-style: italic;
-  font-size: 90px;
-  font-family: 'Righteous', cursive; }
 
 .hola_somos_2 {
   position: absolute;
   width: 100%;
   padding: 20px; }
-
-.hola_somos_2 h1 {
-  font-style: italic;
-  font-size: 90px; }
+  .hola_somos_2 h1 {
+    font-style: italic;
+    font-size: 90px; }
 
 .hola_somos_carousel {
   animation: hola_somos_imagen 5s forwards; }
@@ -93,7 +85,7 @@ ul {
     position: relative; } }
 
 .grid_servicios {
-  background-color: #ffff;
+  background-color: #fff;
   width: 100%;
   height: 500px;
   display: grid;
@@ -116,9 +108,20 @@ ul {
   border-radius: 20px;
   box-shadow: 0 25px 50px -12px #aa5151;
   transition: transform 0.3s; }
-
-.cardservicios:hover {
-  transform: perspective(420px) translateZ(40px); }
+  .cardservicios:hover {
+    transform: perspective(420px) translateZ(40px); }
+  .cardservicios_holistica {
+    background-color: #764545;
+    color: #dbabb0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 20px; }
 
 .cardimg {
   width: 150px;
@@ -132,80 +135,60 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
-
-.cardimg img {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-  margin-top: 1rem; }
+  .cardimg img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 1rem; }
+  .cardimg_holistica_img {
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+    background-color: #b9747b;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .cardimg_holistica_img_img img {
+      height: 50%;
+      width: 50%;
+      object-fit: cover; }
 
 .button {
   background-color: #625380;
   color: white;
   padding: 10px;
   border-radius: 10px; }
-
-.cardservicios_holistica {
-  background-color: #764545;
-  color: #dbabb0;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  justify-content: space-evenly;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-  border-radius: 20px; }
-
-.cardimg_holistica_img {
-  width: 10vw;
-  height: 10vw;
-  overflow: hidden;
-  background-color: #b9747b;
-  text-align: center;
-  border-radius: 20px;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.cardimg_holistica_img img {
-  height: 50%;
-  width: 50%;
-  object-fit: cover; }
+  .button:hover {
+    opacity: 0.8;
+    transition: all 0.3s; }
 
 .somos {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
   background-color: #dbabb0; }
-
-.somos_texto {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #ffff;
-  padding: 20px; }
-
-.somos_texto p {
-  font-size: 30px; }
-
-.somos_imagen {
-  width: 600px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  margin: 20px; }
-
-.somos_imagen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.navbar img {
-  display: none; }
+  .somos_texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 20px; }
+    .somos_texto p {
+      font-size: 30px; }
+  .somos_imagen {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px; }
+    .somos_imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
 
 .carousel_height {
   height: 1050px; }
@@ -307,7 +290,7 @@ ul {
 
 .footer {
   background-color: black;
-  color: white;
+  color: #fff;
   height: 400px;
   font-size: 20px;
   display: grid;
@@ -324,7 +307,7 @@ ul {
     margin: 30px; }
 
 .menu li a {
-  color: white; }
+  color: #fff; }
 
 .contactanos__datos {
   display: flex;
@@ -332,3 +315,155 @@ ul {
   align-items: center; }
   .contactanos__datos__datos h3 {
     margin-left: 10px; }
+
+.contacto {
+  height: 900px; }
+  .contacto__bloque {
+    background-color: #dfd9d9;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: contacto_transition 5s forwards; }
+  .contacto__datos {
+    width: 550px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffff;
+    background-color: #b9747b;
+    margin: 30px;
+    border-radius: 10px; }
+
+@keyframes contacto_transition {
+  0% {
+    top: 1050px; }
+  100% {
+    top: 0px; } }
+
+.button_mail {
+  background-color: #625380;
+  color: white;
+  padding: 10px;
+  border-radius: 10px; }
+
+.contacto__dir {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px; }
+
+.contacto__dir__number {
+  width: 300px; }
+
+.contacto__telefono {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px; }
+
+.contacto__tel__number {
+  width: 300px; }
+
+.contacto__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px; }
+
+.contacto__redes__tipos {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.contacto__redes__nombre {
+  margin-bottom: 10px; }
+
+.datos__email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px; }
+
+.email__tipos {
+  width: 300px; }
+
+.contacto__hablemos {
+  width: 550px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #000000;
+  background-color: #ffff;
+  margin: 30px;
+  border-radius: 10px; }
+
+.hablemos__datos {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-content: center; }
+
+.hablemos__datos__personal {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.hablemos__datos__mensaje {
+  display: flex; }
+
+@media (max-width: 1200px) {
+  .contacto {
+    height: 800px; }
+  .contacto__datos {
+    width: 350px;
+    height: 500px;
+    align-items: flex-start; }
+  .contacto__hablemos {
+    width: 350px;
+    height: 500px; }
+  .hablemos__datos__personal {
+    width: 200px; }
+  .hablemos__datos {
+    width: 300px; }
+  .hablemos__datos img {
+    width: 200px;
+    height: 50px; }
+  .contacto__img img {
+    width: 30px;
+    height: 30px; }
+  .redes__img img {
+    width: 15px;
+    height: 15px; }
+  .contacto__bloque {
+    height: 800px;
+    font-size: 10px; } }
+
+@media (max-width: 830px) {
+  .contacto__bloque {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 1100px; }
+  .contacto {
+    height: 1100px; } }
+
+@media (max-width: 380px) {
+  .contacto__datos {
+    width: 250px; }
+  .contacto__hablemos {
+    width: 250px; }
+  .hablemos__datos {
+    justify-content: center; } }

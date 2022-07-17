@@ -1,24 +1,51 @@
-/* .bloque_contacto {
-    height: 900px;
-}
-
-
 .contacto {
-    background-color: #dfd9d9;
     height: 900px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    animation: contacto_transition 5s forwards;
+
+    &__bloque {
+        background-color: #dfd9d9;
+        height: 900px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        animation: contacto_transition 5s forwards;
+    }
+
+    &__datos {
+        width: 550px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        color: #ffff;
+        background-color: #b9747b;
+        margin: 30px;
+        border-radius: 10px;
+
+    }
 
 
 
 
 }
+
+
+// .contacto__bloque {
+//     background-color: #dfd9d9;
+//     height: 900px;
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-rows: repeat(1, 1fr);
+//     justify-items: center;
+//     align-items: center;
+//     justify-content: center;
+//     position: relative;
+//     animation: contacto_transition 5s forwards;
+// }
 
 @keyframes contacto_transition {
     0% {
@@ -37,19 +64,19 @@
     border-radius: 10px;
 }
 
-.contacto__datos {
-    width: 550px;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    color: #ffff;
-    background-color: #b9747b;
-    margin: 30px;
-    border-radius: 10px;
+// .contacto__datos {
+//     width: 550px;
+//     height: 700px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-around;
+//     color: #ffff;
+//     background-color: #b9747b;
+//     margin: 30px;
+//     border-radius: 10px;
 
-}
+// }
 
 .contacto__dir {
     display: flex;
@@ -64,7 +91,7 @@
     width: 300px;
 }
 
-.datos__telefono {
+.contacto__telefono {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,11 +103,11 @@
 
 }
 
-.telefono__number {
+.contacto__tel__number {
     width: 300px;
 }
 
-.datos__redes {
+.contacto__redes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -89,7 +116,7 @@
 
 }
 
-.redes__tipos {
+.contacto__redes__tipos {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -97,7 +124,7 @@
 
 }
 
-.redes__nombre {
+.contacto__redes__nombre {
     margin-bottom: 10px;
 }
 
@@ -160,7 +187,7 @@
 
 @media (max-width:1200px) {
 
-    .bloque_contacto {
+    .contacto {
         height: 800px;
     }
 
@@ -200,21 +227,21 @@
         height: 15px;
     }
 
-    .contacto {
+    .contacto__bloque {
         height: 800px;
         font-size: 10px;
     }
 }
 
 @media (max-width:830px) {
-    .contacto {
+    .contacto__bloque {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         height: 1100px;
 
     }
 
-    .bloque_contacto {
+    .contacto {
         height: 1100px;
     }
 
@@ -233,4 +260,4 @@
     .hablemos__datos {
         justify-content: center;
     }
-} */
+}
