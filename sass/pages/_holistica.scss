@@ -1,0 +1,119 @@
+.holistica {
+    background-color: $fontlight;
+    font-family: Poppins;
+    font-size: 55px;
+    color: $fontBlack;
+    text-align: center;
+
+    &__title {
+        font-size: 55px;
+
+        & li {
+            font-size: 35px;
+            color: black;
+        }
+
+    }
+
+    &__texto {
+        font-size: 23px;
+        width: 600px;
+        padding: 30px;
+
+    }
+
+    &__header {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    &__img {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    &__lista {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+
+    &__tipos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        height: 400px;
+
+    }
+
+}
+
+@media (max-width:1300px) {
+    .holistica__tipos {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+}
+
+@media (max-width:1000px) {
+    .holistica__header {
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+@media (max-width:700px) {
+    .holistica__header img {
+        width: 350px;
+        height: 250px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .holistica__lista {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .holistica__texto {
+        width: 400px;
+    }
+}
+
+@media (max-width:450px) {
+    .holistica__header {
+        height: 700px;
+    }
+
+    .holistica__img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .holistica__texto {
+        width: 300px;
+    }
+
+    .holistica__header img {
+        width: 250px;
+        height: 150px;
+
+    }
+
+}

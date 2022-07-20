@@ -1,0 +1,73 @@
+.clinica {
+    background-color: $fontlight;
+    font-family: Poppins;
+    font-size: 55px;
+    color: $fontBlack;
+    text-align: center;
+    height: 500px;
+
+    &__header {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    &__title {
+        font-size: 55px;
+        color: black;
+    }
+
+    &__texto {
+        font-size: 28px;
+        color: $fontBlack;
+        width: 600px;
+        padding: 30px;
+
+    }
+
+    &__img {
+        width: 300px;
+        height: 300px;
+
+    }
+}
+
+@media (max-width:1000px) {
+    .clinica {
+        height: 700px;
+
+        &__header {
+            flex-direction: column;
+            height: 600px;
+        }
+
+
+    }
+}
+
+
+@media (max-width:600px) {
+    .clinica__texto {
+        width: 400px;
+    }
+}
+
+@media (max-width:450px) {
+    .clinica {
+        height: 800px;
+
+        &__header {
+            height: 700px;
+        }
+
+        &__texto {
+            width: 300px;
+        }
+
+    }
+}

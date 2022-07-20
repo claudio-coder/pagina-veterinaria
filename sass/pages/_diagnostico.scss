@@ -1,0 +1,119 @@
+.diagnostico {
+    background-color: $fontlight;
+    font-family: Poppins;
+    font-size: 55px;
+    color: $fontBlack;
+    text-align: center;
+
+    &__title {
+        font-size: 55px;
+        color: $fontBlack;
+    }
+
+    &__texto {
+        font-size: 23px;
+        color: $fontBlack;
+        width: 600px;
+        padding: 30px;
+
+    }
+
+    &__header {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    &__img {
+        width: 400px;
+        height: 200px;
+
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &__tipos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+
+    }
+
+
+}
+
+
+@media (max-width:1300px) {
+    .diagnostico__tipos {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+}
+
+@media (max-width:1000px) {
+    .diagnostico__header {
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+@media (max-width:700px) {
+    .diagnostico__header img {
+        width: 350px;
+        height: 150px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .diagnostico__list {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .diagnostico__texto {
+        width: 400px;
+    }
+}
+
+@media (max-width:450px) {
+    .diagnostico {
+        height: 2400px;
+
+        &__header {
+            height: 700px;
+        }
+
+        &__img {
+            width: 200px;
+            height: 100px;
+        }
+
+        &__texto {
+            width: 300px;
+        }
+
+        &__tipos {
+            height: 800px;
+        }
+
+
+    }
+
+}

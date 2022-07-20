@@ -1,0 +1,94 @@
+.cirugia {
+    background-color: $fontlight;
+    font-family: Poppins;
+    font-size: 55px;
+    color: $fontBlack;
+    text-align: center;
+    height: 600px;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 55px;
+        color: black;
+    }
+
+    &__texto {
+        font-size: 28px;
+        color: $fontBlack;
+        width: 600px;
+        padding: 30px;
+    }
+
+    &__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        & ul li {
+            font-size: 33px;
+            color: $fontBlack;
+            padding: 30px;
+            text-decoration: underline;
+        }
+
+
+    }
+
+
+}
+
+
+
+@media (max-width:1700px) {
+    .cirugia {
+        height: 1100px;
+
+
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 0.5fr);
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+    }
+
+}
+
+
+@media (max-width:1130px) {
+    .cirugia {
+        height: 1800px;
+
+        &__lista {
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        &__texto {
+            width: 400px;
+        }
+    }
+
+}
+
+
+@media (max-width:470px) {
+    .cirugia {
+        height: 1800px;
+
+
+        &__texto {
+            width: 300px;
+        }
+    }
+}

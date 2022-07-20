@@ -21,31 +21,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        color: #ffff;
+        color: $fontlight;
         background-color: #b9747b;
         margin: 30px;
         border-radius: 10px;
 
     }
 
-
-
-
 }
 
-
-// .contacto__bloque {
-//     background-color: #dfd9d9;
-//     height: 900px;
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-rows: repeat(1, 1fr);
-//     justify-items: center;
-//     align-items: center;
-//     justify-content: center;
-//     position: relative;
-//     animation: contacto_transition 5s forwards;
-// }
 
 @keyframes contacto_transition {
     0% {
@@ -59,24 +43,11 @@
 
 .button_mail {
     background-color: #625380;
-    color: white;
+    color: $fontlight;
     padding: 10px;
     border-radius: 10px;
 }
 
-// .contacto__datos {
-//     width: 550px;
-//     height: 700px;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: space-around;
-//     color: #ffff;
-//     background-color: #b9747b;
-//     margin: 30px;
-//     border-radius: 10px;
-
-// }
 
 .contacto__dir {
     display: flex;
@@ -84,11 +55,11 @@
     justify-content: space-around;
     width: 400px;
 
+    &__number {
+        width: 300px;
+    }
 
-}
 
-.contacto__dir__number {
-    width: 300px;
 }
 
 .contacto__telefono {
@@ -97,15 +68,15 @@
     justify-content: space-around;
     width: 400px;
 
+    &__number {
+        width: 300px;
+    }
 
 
 
 
 }
 
-.contacto__tel__number {
-    width: 300px;
-}
 
 .contacto__redes {
     display: flex;
@@ -113,46 +84,44 @@
     justify-content: space-around;
     width: 400px;
 
+    &__tipos {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    &__nombre {
+        margin-bottom: 10px;
+    }
 
 }
 
-.contacto__redes__tipos {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-
-.contacto__redes__nombre {
-    margin-bottom: 10px;
-}
-
-.datos__email {
+.contacto__email {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 400px;
 
+    &__tipos {
+        width: 300px;
+    }
 
 
 
 
 }
 
-.email__tipos {
-    width: 300px;
-}
 
-
-.contacto__hablemos {
+.hablemos {
     width: 550px;
     height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    color: #000000;
+    color: $fontBlack;
     background-color: #ffff;
     margin: 30px;
     border-radius: 10px;
@@ -169,19 +138,19 @@
     justify-items: center;
     align-content: center;
 
+    &__personal {
+        width: 500px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
-}
+    &__mensaje {
+        display: flex;
 
-.hablemos__datos__personal {
-    width: 500px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+    }
 
-.hablemos__datos__mensaje {
-    display: flex;
 
 }
 
@@ -189,36 +158,45 @@
 
     .contacto {
         height: 800px;
+
+        &__datos {
+            width: 350px;
+            height: 500px;
+            align-items: flex-start;
+        }
+
+        &__img img {
+            width: 30px;
+            height: 30px;
+
+        }
+
+        &__bloque {
+            height: 800px;
+            font-size: 10px;
+        }
+
+
     }
 
 
-    .contacto__datos {
+    .hablemos {
         width: 350px;
         height: 500px;
-        align-items: flex-start;
-    }
-
-    .contacto__hablemos {
-        width: 350px;
-        height: 500px;
-    }
-
-    .hablemos__datos__personal {
-        width: 200px;
     }
 
     .hablemos__datos {
         width: 300px;
-    }
 
-    .hablemos__datos img {
-        width: 200px;
-        height: 50px;
-    }
+        &__personal {
+            width: 200px;
+        }
 
-    .contacto__img img {
-        width: 30px;
-        height: 30px;
+        & img {
+            width: 200px;
+            height: 50px;
+        }
+
 
     }
 
@@ -227,22 +205,20 @@
         height: 15px;
     }
 
-    .contacto__bloque {
-        height: 800px;
-        font-size: 10px;
-    }
 }
 
 @media (max-width:830px) {
-    .contacto__bloque {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        height: 1100px;
-
-    }
 
     .contacto {
         height: 1100px;
+
+        &__bloque {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            height: 1100px;
+
+        }
+
     }
 
 
@@ -253,11 +229,12 @@
         width: 250px;
     }
 
-    .contacto__hablemos {
+    .hablemos {
         width: 250px;
-    }
 
-    .hablemos__datos {
-        justify-content: center;
+        &__datos {
+            justify-content: center;
+        }
+
     }
 }
