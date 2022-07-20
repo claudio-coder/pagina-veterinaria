@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/issues</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pulls</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/projects?type=beta</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/security</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/.DS_Store</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/.gitignore</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/README.md</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/banos_peluqueria.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/cirugia.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/clinica_general.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/contacto.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/farmacia.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/fisioterapia.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/index.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/medicina_holistica.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/metodos_de_diagnostico.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/package-lock.json</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/package.json</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/quienes_somos.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/releases</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/compare</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2708021785</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2685992852</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2685965638</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2667357338</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2653507814</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2652613401</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2626774196</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2626026598</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/2</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2612531086</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2612452575</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2612378632</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2606607648</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2593413477</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/projects?type=classic</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/security/policy</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/security/advisories</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/.DS_Store</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/find/main</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/login?return_to=https%3A%2F%2Fgithub.com%2Fclaudio-coder%2Fveterinaria-claudiocabanas%2Fdelete%2Fmain%2F.DS_Store</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/.gitignore</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/README.md</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/main/README.md?plain=1</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/banos_peluqueria.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/cirugia.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/clinica_general.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/contacto.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/farmacia.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/fisioterapia.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/index.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/medicina_holistica.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/metodos_de_diagnostico.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/package-lock.json</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/package.json</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/quienes_somos.html</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels?sort=name-asc</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels?sort=name-desc</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels?sort=count-desc</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels?sort=count-asc</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/bug</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/documentation</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/duplicate</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/enhancement</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/good%20first%20issue</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/help%20wanted</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/invalid</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/question</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/labels/wontfix</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7439023332?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7439032013?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7439031849?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/56b683c3746fde088ebbaff0b380fa2f33553277</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2708021785/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7378563526?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7378567247?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7378567279?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/1f71fcda707b32201ab753042ca8919e45c11bc1</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2685992852/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7378512317?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7378517073?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7378516976?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/f9deb100df82da70e9e62bb8be8745b3b11a51a2</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2685965638/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7332127464?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7332133421?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7332133478?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/308978603025b1981421affb3e90508963a76cfa</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2667357338/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7293618181?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7293623082?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7293623040?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/a9260985b8eedbcbf5b259d642dc8c22660fca84</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2653507814/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7291232161?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7291240025?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7291240150?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/7ddce27d571aa4d98a8b7dc122b46d45667c33af</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2652613401/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7225954803?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7225960342?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7225960276?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/cc81394fbdfed8881f62eb8a2065e26554574e33</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2626774196/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7224015348?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7224022880?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7224022825?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/47ccf730fb86765ab2bf5539b8ed5210589cc386</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2626026598/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/2/commits</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/2/checks</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/2/files</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/1</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7187111894?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7187118105?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7187118029?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/8dd6331c9c7d4abfb81b16e91973a48cd174050f</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2612531086/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7186928718?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7186934867?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7186934927?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/541b1dae250438e17e44e1105b685024b1d9c80d</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2612452575/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7186752091?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7186756935?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7186756849?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2612378632/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7171695019?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7171698663?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7171698584?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/5eccb317e373a890b114e6f128d93228e03c1fa5</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2606607648/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7141474418?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7141479563?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/runs/7141479619?check_suite_focus=true</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/847916bfc1c118e7e10c4531d094f866063dcc66</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/actions/runs/2593413477/usage</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/security/advisories?state=published</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/find/56b683c3746fde088ebbaff0b380fa2f33553277</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/blob/56b683c3746fde088ebbaff0b380fa2f33553277/README.md?plain=1</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/f30726a6d11dc954ae86ab0756314fe734857cc5</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/70eb8787a72f2e4acf61b0da1da79c8f8ba89dc9</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/52869fc5df23922fd18d6f509df875cc14f469e9</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/3</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/bf64198cc222bb9fdac93dc3d28c3f76769aaada</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/4b55e074c759ba5de85a306bf7b23893afadfe3e</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/1/commits</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/1/checks</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/1/files</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/f54e6b95cb18d17b505a774d58dcfc8ee24dbca7</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/9775fad9e4703a1a9983d072de55aceaf2dde40b</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/3/commits</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/3/checks</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/pull/3/files</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/claudio-coder/veterinaria-claudiocabanas/commit/f5ebde0591f6734d34ed0dbd570ebfa09a6f5d81</loc>
+  <lastmod>2022-07-20T22:25:33+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
