@@ -983,7 +983,7 @@ body {
       font-size: 10px; } }
 
 .farmacia {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/imagenes/farmaciavete2.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../imagenes/farmaciavete2.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   font-size: 55px;
