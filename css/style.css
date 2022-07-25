@@ -803,7 +803,7 @@ ul {
   font-family: Poppins;
   color: black;
   text-align: center;
-  height: 500px; }
+  height: 1200px; }
 
 .peluqueria__perrosygatos {
   display: flex;
@@ -838,27 +838,44 @@ ul {
   width: 600px; }
 
 .peluqueria__aseo {
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start; }
 
+@media (max-width: 1700px) {
+  .peluqueria__cortes {
+    height: 500px; } }
+
+@media (max-width: 1000px) {
+  .peluqueria__cortes {
+    height: 400px; } }
+
 @media (max-width: 850px) {
   .peluqueria {
-    height: 1500px; }
+    height: 1000px; }
     .peluqueria__cortes {
-      height: 700px; }
+      height: 400px; }
     .peluqueria__aseo {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 800px; } }
+      height: 600px; } }
+
+@media (max-width: 770px) {
+  .peluqueria {
+    height: 1000px; }
+    .peluqueria__cortes {
+      height: 300px; }
+    .peluqueria__perrosygatos {
+      font-size: 12px; } }
 
 @media (max-width: 320px) {
   .peluqueria__cortes {
-    height: 900px; }
+    height: 450px; }
   .peluqueria {
-    height: 1700px; } }
+    height: 1200px; } }
 
 body {
   font-family: "Poppins", Helvetica, Arial, sans-serif; }

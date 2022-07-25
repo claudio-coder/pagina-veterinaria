@@ -8,7 +8,7 @@
         font-family: Poppins;
         color: $fontBlack;
         text-align: center;
-        height: 500px;
+        height: 1200px;
     }
 
     &__perrosygatos {
@@ -55,6 +55,7 @@
     }
 
     &__aseo {
+        background-color: $fontlight;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -64,30 +65,63 @@
 
 }
 
-@media (max-width:850px) {
+@media (max-width:1700px) {
     .peluqueria {
-        height: 1500px;
 
         &__cortes {
-            height: 700px;
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .peluqueria {
+
+        &__cortes {
+            height: 400px;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .peluqueria {
+        height: 1000px;
+
+        &__cortes {
+            height: 400px;
         }
 
         &__aseo {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 800px;
+            height: 600px;
         }
 
     }
 }
 
+@media (max-width:770px) {
+    .peluqueria {
+        height: 1000px;
+
+        &__cortes {
+            height: 300px;
+        }
+
+        &__perrosygatos {
+            font-size: 12px;
+
+        }
+    }
+}
+
 @media (max-width:320px) {
     .peluqueria__cortes {
-        height: 900px;
+        height: 450px;
     }
 
     .peluqueria {
-        height: 1700px;
+        height: 1200px;
     }
 }
