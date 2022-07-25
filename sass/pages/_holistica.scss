@@ -34,8 +34,9 @@
     }
 
     &__img {
-        width: 300px;
-        height: 200px;
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
 
     }
 
@@ -60,10 +61,33 @@
 
 }
 
+.holistica__acupuntura {
+    background-color: rgb(184, 167, 167);
+    z-index: 1;
+    width: 500px;
+
+    & li {
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
+.dropdown_item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
 @media (max-width:1300px) {
     .holistica__tipos {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
+
+    }
+
+    .holistica {
+        height: 1400px;
 
     }
 }
@@ -73,12 +97,24 @@
         flex-direction: column;
         height: 600px;
     }
+
+    .holistica {
+        height: 1600px;
+
+    }
+
 }
 
 @media (max-width:700px) {
     .holistica__header img {
         width: 350px;
         height: 250px;
+
+    }
+
+    .holistica__img {
+        width: 300px;
+        height: 100px;
 
     }
 }
@@ -94,6 +130,20 @@
     .holistica__texto {
         width: 400px;
     }
+
+    .holistica__acupuntura {
+        width: 250px;
+
+    }
+
+    .holistica {
+        height: 1400px;
+    }
+
+    .holistica__lista {
+        margin: 20px;
+    }
+
 }
 
 @media (max-width:450px) {
@@ -108,6 +158,7 @@
 
     .holistica__texto {
         width: 300px;
+
     }
 
     .holistica__header img {
@@ -116,4 +167,14 @@
 
     }
 
+
+
+}
+
+@media (max-width:350px) {
+
+    .holistica__texto p {
+        font-size: 23px;
+
+    }
 }

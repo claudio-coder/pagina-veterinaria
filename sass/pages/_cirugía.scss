@@ -1,28 +1,27 @@
 .cirugia {
-    background-color: $fontlight;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../imagenes/quirofano_operando2.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: Poppins;
-    font-size: 55px;
     color: $fontBlack;
     text-align: center;
-    height: 600px;
+    height: 400px;
 
     &__grid {
-        display: grid;
-        grid-template-columns: repeat(2, 0.5fr);
-        grid-template-rows: repeat(1, 1fr);
+        display: flex;
         align-items: center;
+        justify-items: center;
     }
 
     &__title {
         font-size: 55px;
-        color: black;
+        color: $fontBlack;
     }
 
     &__texto {
-        font-size: 28px;
+        font-size: 25px;
         color: $fontBlack;
-        width: 600px;
-        padding: 30px;
+        text-align: justify;
     }
 
     &__lista {
@@ -33,7 +32,7 @@
         & ul li {
             font-size: 33px;
             color: $fontBlack;
-            padding: 30px;
+            padding: 20px;
             text-decoration: underline;
         }
 
@@ -43,52 +42,34 @@
 
 }
 
-
-
-@media (max-width:1700px) {
+@media (max-width:900px) {
     .cirugia {
-        height: 1100px;
 
+        height: 400px;
+
+        &__title {
+            font-size: 30px;
+        }
 
         &__grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(2, 0.5fr);
-            align-items: center;
-            justify-content: center;
-            justify-items: center;
-        }
-
-    }
-
-}
-
-
-@media (max-width:1130px) {
-    .cirugia {
-        height: 1800px;
-
-        &__lista {
             flex-direction: column;
-            align-items: center;
-
         }
 
         &__texto {
-            width: 400px;
+            font-size: 18px;
+        }
+
+        &__lista ul li {
+            font-size: 20px;
+            padding: 10px;
+
         }
     }
-
 }
 
-
-@media (max-width:470px) {
+@media (max-width:440px) {
     .cirugia {
-        height: 1800px;
 
-
-        &__texto {
-            width: 300px;
-        }
+        height: 500px;
     }
 }

@@ -1,25 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
-  background-color: #eeee;
-}
+  background-color: #eeee; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 p {
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
 ul {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .header {
   background-color: #625380;
@@ -27,47 +22,32 @@ ul {
   position: sticky;
   top: 0;
   animation: header_transition 5s;
-  z-index: 1;
-  color: #fff;
-}
-
-.header__content {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-start;
-  align-items: center;
-  color: #fff;
-}
-
-.header__content_2 {
-  width: 100%;
-}
-
-.header__content_2 ul li a {
-  color: #fff;
-}
-
-.header__servicios {
-  background-color: #917ac0;
-}
-
-.header a:hover {
-  color: orange;
-  text-decoration: underline;
-}
+  z-index: 2;
+  color: #fff; }
+  .header__content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff; }
+  .header__content_2 {
+    width: 100%; }
+  .header__content_2 ul li a {
+    color: #fff; }
+  .header__servicios {
+    background-color: #917ac0; }
+  .header a:hover {
+    color: orange;
+    text-decoration: underline; }
 
 @keyframes header_transition {
   0% {
     top: -100px;
-    position: relative;
-  }
-
+    position: relative; }
   100% {
     top: 0px;
-    position: relative;
-  }
-}
+    position: relative; } }
 
 .hola_somos_1 {
   display: flex;
@@ -76,45 +56,33 @@ ul {
   text-align: center;
   position: absolute;
   width: 100%;
-  padding: 20px;
-}
-
-.hola_somos_1 h1 {
-  font-style: italic;
-  font-size: 90px;
-  font-family: 'Righteous', cursive;
-}
+  padding: 20px; }
+  .hola_somos_1 h1 {
+    font-style: italic;
+    font-size: 90px;
+    font-family: 'Righteous', cursive; }
 
 .somos_imagen_img {
-  height: 400px;
-}
+  height: 400px; }
 
 .hola_somos_2 {
   position: absolute;
   width: 100%;
-  padding: 20px;
-}
-
-.hola_somos_2 h1 {
-  font-style: italic;
-  font-size: 90px;
-}
+  padding: 20px; }
+  .hola_somos_2 h1 {
+    font-style: italic;
+    font-size: 90px; }
 
 .hola_somos_carousel {
-  animation: hola_somos_imagen 5s forwards;
-}
+  animation: hola_somos_imagen 5s forwards; }
 
 @keyframes hola_somos_imagen {
   0% {
     top: 1050px;
-    position: relative;
-  }
-
+    position: relative; }
   100% {
     top: 0px;
-    position: relative;
-  }
-}
+    position: relative; } }
 
 .grid_servicios {
   background-color: #fff;
@@ -124,8 +92,7 @@ ul {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(1, 1fr);
   justify-items: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .cardservicios {
   background-color: #d7acac;
@@ -140,26 +107,21 @@ ul {
   margin: 1rem;
   border-radius: 20px;
   box-shadow: 0 25px 50px -12px #aa5151;
-  transition: transform 0.3s;
-}
-
-.cardservicios:hover {
-  transform: perspective(420px) translateZ(40px);
-}
-
-.cardservicios_holistica {
-  background-color: #764545;
-  color: #dbabb0;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  justify-content: space-evenly;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-  border-radius: 20px;
-}
+  transition: transform 0.3s; }
+  .cardservicios:hover {
+    transform: perspective(420px) translateZ(40px); }
+  .cardservicios_holistica {
+    background-color: #764545;
+    color: #dbabb0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 20px; }
 
 .cardimg {
   width: 150px;
@@ -172,241 +134,159 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-}
-
-.cardimg img {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-  margin-top: 1rem;
-}
-
-.cardimg_holistica_img {
-  width: 10vw;
-  height: 10vw;
-  overflow: hidden;
-  background-color: #b9747b;
-  text-align: center;
-  border-radius: 20px;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.cardimg_holistica_img_img img {
-  height: 50%;
-  width: 50%;
-  object-fit: cover;
-}
+  align-items: center; }
+  .cardimg img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 1rem; }
+  .cardimg_holistica_img {
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+    background-color: #b9747b;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .cardimg_holistica_img_img img {
+      height: 50%;
+      width: 50%;
+      object-fit: cover; }
 
 .button {
   background-color: #625380;
   color: white;
   padding: 10px;
-  border-radius: 10px;
-}
-
-.button:hover {
-  opacity: 0.8;
-  transition: all 0.3s;
-}
+  border-radius: 10px; }
+  .button:hover {
+    opacity: 0.8;
+    transition: all 0.3s; }
 
 .somos {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  background-color: #dbabb0;
-}
-
-.somos_texto {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  padding: 20px;
-}
-
-.somos_texto p {
-  font-size: 30px;
-}
-
-.somos_imagen {
-  width: 600px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
-.somos_imagen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  background-color: #dbabb0; }
+  .somos_texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 20px; }
+    .somos_texto p {
+      font-size: 30px; }
+  .somos_imagen {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px; }
+    .somos_imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
 
 .carousel_height {
-  height: 1050px;
-}
+  height: 1050px; }
 
 @media (max-width: 1700px) {
   .grid_servicios {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 900px;
-  }
-}
+    height: 900px; } }
 
 @media (max-width: 1300px) {
   .footer__explora h1 {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   .footer__explora ul li a {
-    font-size: 15px;
-  }
-
+    font-size: 15px; }
   .footer__explora ul li h3 {
-    font-size: 15px;
-  }
-}
+    font-size: 15px; } }
 
 @media (max-width: 1150px) {
   .footer {
     grid-template-columns: repeat(1, 1fr);
     justify-items: start;
-    height: 800px;
-  }
-
+    height: 800px; }
   .carousel_height {
-    height: 800px;
-  }
-}
+    height: 800px; } }
 
 @media (max-width: 1024px) {
   .grid_servicios {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 1400px;
-  }
-
+    height: 1400px; }
   .hola_somos {
-    font-size: 30px;
-  }
-
+    font-size: 30px; }
   .somos {
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
   .carousel_height {
-    height: 600px;
-  }
-
+    height: 600px; }
   .hola_somos_1 h1 {
-    font-size: 50px;
-  }
-
+    font-size: 50px; }
   .hola_somos_2 h1 {
-    font-size: 50px;
-  }
-}
+    font-size: 50px; } }
 
 @media (max-width: 830px) {
   .header__content {
     flex-direction: column;
-    align-items: flex-start;
-  }
-
+    align-items: flex-start; }
   .carousel_height {
-    height: 500px;
-  }
-}
+    height: 500px; } }
 
 @media (max-width: 680px) {
   .grid_servicios {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    height: 2000px;
-  }
-
+    height: 2000px; }
   .cardservicios {
     width: 200px;
-    height: 300px;
-  }
-
+    height: 300px; }
   .somos_texto p {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   .somos_imagen {
     width: 400px;
-    height: 400px;
-  }
-
+    height: 400px; }
   .carousel_height {
-    height: 500px;
-  }
-
+    height: 500px; }
   .hola_somos_1 h1 {
-    font-size: 30px;
-  }
-
+    font-size: 30px; }
   .hola_somos_2 h1 {
-    font-size: 30px;
-  }
-}
+    font-size: 30px; } }
 
 @media (max-width: 470px) {
   .content__logotitle {
     flex-direction: column;
-    align-items: flex-start;
-  }
-
+    align-items: flex-start; }
   .navbar img {
     display: inline-block;
     font-size: 50px;
-    margin: 10px;
-  }
-
+    margin: 10px; }
   .somos_imagen_img {
     width: 300px;
-    height: 300px;
-  }
-
+    height: 300px; }
   .footer {
     font-size: 10px;
-    height: 700px;
-  }
-
+    height: 700px; }
   .footer__explora {
-    margin: 10px;
-  }
-
+    margin: 10px; }
   .footer__explora__logo img {
     width: 200px;
-    height: 100px;
-  }
-
+    height: 100px; }
   .menu li img {
     width: 10px;
-    height: 10px;
-  }
-
+    height: 10px; }
   .carousel_height {
-    height: 300px;
-  }
-
+    height: 300px; }
   .hola_somos_1 h1 {
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   .hola_somos_2 h1 {
-    font-size: 20px;
-  }
-}
+    font-size: 20px; } }
 
 .footer {
   background-color: black;
@@ -417,227 +297,165 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   align-content: center;
   justify-items: center;
-  margin-top: 20px;
-}
-
-.footer__explora {
-  margin: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-items: left;
-}
-
-.footer__explora__logo {
-  margin: 30px;
-}
+  margin-top: 20px; }
+  .footer__explora {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: left; }
+  .footer__explora__logo {
+    margin: 30px; }
 
 .menu li a {
-  color: #fff;
-}
+  color: #fff; }
 
 .contactanos__datos {
   display: flex;
   flex-direction: row;
-  align-items: center;
-}
-
-.contactanos__datos__datos h3 {
-  margin-left: 10px;
-}
+  align-items: center; }
+  .contactanos__datos__datos h3 {
+    margin-left: 10px; }
 
 .fisio {
   background-color: #fff;
   font-family: Poppins;
   font-size: 55px;
   color: black;
-  text-align: center;
-}
-
-.fisio__title {
-  font-size: 55px;
-}
-
-.fisio__texto {
-  font-size: 23px;
-  width: 600px;
-  padding: 30px;
-}
-
-.fisio__header {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.fisio__img {
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
-}
-
-.fisio__list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.fisio__tipos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  align-items: center;
-}
+  text-align: center; }
+  .fisio__title {
+    font-size: 55px; }
+  .fisio__texto {
+    font-size: 23px;
+    width: 600px;
+    padding: 30px; }
+  .fisio__header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+  .fisio__img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px; }
+  .fisio__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  .fisio__tipos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center; }
 
 @media (max-width: 1300px) {
   .fisio__tipos {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
+    grid-template-rows: repeat(2, 1fr); } }
 
 @media (max-width: 1000px) {
   .fisio__header {
     flex-direction: column;
-    height: 600px;
-  }
-}
+    height: 600px; } }
 
 @media (max-width: 700px) {
   .fisio__header img {
     width: 350px;
-    height: 150px;
-  }
-}
+    height: 150px; } }
 
 @media (max-width: 600px) {
   .fisio__list {
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
   .fisio__texto {
-    width: 400px;
-  }
-}
+    width: 400px; } }
 
 @media (max-width: 450px) {
   .fisio__header {
-    height: 700px;
-  }
-
+    height: 700px; }
   .fisio__img {
     width: 200px;
-    height: 100px;
-  }
-
+    height: 100px; }
   .fisio__texto {
-    width: 300px;
-  }
-}
+    width: 300px; } }
 
 .contacto {
-  height: 900px;
-}
-
-.contacto__bloque {
-  background-color: #dfd9d9;
-  height: 900px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  animation: contacto_transition 5s forwards;
-}
-
-.contacto__datos {
-  width: 550px;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  color: #fff;
-  background-color: #b9747b;
-  margin: 30px;
-  border-radius: 10px;
-}
+  height: 900px; }
+  .contacto__bloque {
+    background-color: #dfd9d9;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: contacto_transition 5s forwards; }
+  .contacto__datos {
+    width: 550px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #b9747b;
+    margin: 30px;
+    border-radius: 10px; }
 
 @keyframes contacto_transition {
   0% {
-    top: 1050px;
-  }
-
+    top: 1050px; }
   100% {
-    top: 0px;
-  }
-}
+    top: 0px; } }
 
 .button_mail {
   background-color: #625380;
   color: #fff;
   padding: 10px;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .contacto__dir {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 400px;
-}
-
-.contacto__dir__number {
-  width: 300px;
-}
+  width: 400px; }
+  .contacto__dir__number {
+    width: 300px; }
 
 .contacto__telefono {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 400px;
-}
-
-.contacto__telefono__number {
-  width: 300px;
-}
+  width: 400px; }
+  .contacto__telefono__number {
+    width: 300px; }
 
 .contacto__redes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 400px;
-}
-
-.contacto__redes__tipos {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.contacto__redes__nombre {
-  margin-bottom: 10px;
-}
+  width: 400px; }
+  .contacto__redes__tipos {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+  .contacto__redes__nombre {
+    margin-bottom: 10px; }
 
 .contacto__email {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 400px;
-}
-
-.contacto__email__tipos {
-  width: 300px;
-}
+  width: 400px; }
+  .contacto__email__tipos {
+    width: 300px; }
 
 .hablemos {
   width: 550px;
@@ -649,8 +467,7 @@ ul {
   color: black;
   background-color: #ffff;
   margin: 30px;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .hablemos__datos {
   width: 500px;
@@ -658,197 +475,162 @@ ul {
   display: flex;
   flex-direction: row;
   justify-items: center;
-  align-content: center;
-}
-
-.hablemos__datos__personal {
-  width: 500px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.hablemos__datos__mensaje {
-  display: flex;
-}
+  align-content: center; }
+  .hablemos__datos__personal {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  .hablemos__datos__mensaje {
+    display: flex; }
 
 @media (max-width: 1200px) {
   .contacto {
-    height: 800px;
-  }
-
-  .contacto__datos {
-    width: 350px;
-    height: 500px;
-    align-items: flex-start;
-  }
-
-  .contacto__img img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .contacto__bloque {
-    height: 800px;
-    font-size: 10px;
-  }
-
+    height: 800px; }
+    .contacto__datos {
+      width: 350px;
+      height: 500px;
+      align-items: flex-start; }
+    .contacto__img img {
+      width: 30px;
+      height: 30px; }
+    .contacto__bloque {
+      height: 800px;
+      font-size: 10px; }
   .hablemos {
     width: 350px;
-    height: 500px;
-  }
-
+    height: 500px; }
   .hablemos__datos {
-    width: 300px;
-  }
-
-  .hablemos__datos__personal {
-    width: 200px;
-  }
-
-  .hablemos__datos img {
-    width: 200px;
-    height: 50px;
-  }
-
+    width: 300px; }
+    .hablemos__datos__personal {
+      width: 200px; }
+    .hablemos__datos img {
+      width: 200px;
+      height: 50px; }
   .redes__img img {
     width: 15px;
-    height: 15px;
-  }
-}
+    height: 15px; } }
 
 @media (max-width: 830px) {
   .contacto {
-    height: 1100px;
-  }
-
-  .contacto__bloque {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    height: 1100px;
-  }
-}
+    height: 1100px; }
+    .contacto__bloque {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: 1100px; } }
 
 @media (max-width: 380px) {
   .contacto__datos {
-    width: 250px;
-  }
-
+    width: 250px; }
   .hablemos {
-    width: 250px;
-  }
-
-  .hablemos__datos {
-    justify-content: center;
-  }
-}
+    width: 250px; }
+    .hablemos__datos {
+      justify-content: center; } }
 
 .holistica {
   background-color: #fff;
   font-family: Poppins;
   font-size: 55px;
   color: black;
-  text-align: center;
-}
+  text-align: center; }
+  .holistica__title {
+    font-size: 55px; }
+    .holistica__title li {
+      font-size: 35px;
+      color: black; }
+  .holistica__texto {
+    font-size: 23px;
+    width: 600px;
+    padding: 30px; }
+  .holistica__header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+  .holistica__img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px; }
+  .holistica__lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  .holistica__tipos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 400px; }
 
-.holistica__title {
-  font-size: 55px;
-}
+.holistica__acupuntura {
+  background-color: #b8a7a7;
+  z-index: 1;
+  width: 500px; }
+  .holistica__acupuntura li {
+    font-size: 20px;
+    text-align: justify; }
 
-.holistica__title li {
-  font-size: 35px;
-  color: black;
-}
-
-.holistica__texto {
-  font-size: 23px;
-  width: 600px;
-  padding: 30px;
-}
-
-.holistica__header {
+.dropdown_item {
   width: 100%;
-  height: 400px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.holistica__img {
-  width: 300px;
-  height: 200px;
-}
-
-.holistica__lista {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.holistica__tipos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  align-items: center;
-  height: 400px;
-}
+  justify-content: center; }
 
 @media (max-width: 1300px) {
   .holistica__tipos {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
+    grid-template-rows: repeat(2, 1fr); }
+  .holistica {
+    height: 1400px; } }
 
 @media (max-width: 1000px) {
   .holistica__header {
     flex-direction: column;
-    height: 600px;
-  }
-}
+    height: 600px; }
+  .holistica {
+    height: 1600px; } }
 
 @media (max-width: 700px) {
   .holistica__header img {
     width: 350px;
-    height: 250px;
-  }
-}
+    height: 250px; }
+  .holistica__img {
+    width: 300px;
+    height: 100px; } }
 
 @media (max-width: 600px) {
   .holistica__lista {
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
   .holistica__texto {
-    width: 400px;
-  }
-}
+    width: 400px; }
+  .holistica__acupuntura {
+    width: 250px; }
+  .holistica {
+    height: 1400px; }
+  .holistica__lista {
+    margin: 20px; } }
 
 @media (max-width: 450px) {
   .holistica__header {
-    height: 700px;
-  }
-
+    height: 700px; }
   .holistica__img {
     width: 200px;
-    height: 100px;
-  }
-
+    height: 100px; }
   .holistica__texto {
-    width: 300px;
-  }
-
+    width: 300px; }
   .holistica__header img {
     width: 250px;
-    height: 150px;
-  }
-}
+    height: 150px; } }
+
+@media (max-width: 350px) {
+  .holistica__texto p {
+    font-size: 23px; } }
 
 .clinica {
   background-color: #fff;
@@ -856,294 +638,257 @@ ul {
   font-size: 55px;
   color: black;
   text-align: center;
-  height: 500px;
-}
-
-.clinica__header {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.clinica__title {
-  font-size: 55px;
-  color: black;
-}
-
-.clinica__texto {
-  font-size: 28px;
-  color: black;
-  width: 600px;
-  padding: 30px;
-}
-
-.clinica__img {
-  width: 300px;
-  height: 300px;
-}
+  height: 500px; }
+  .clinica__header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+  .clinica__title {
+    font-size: 55px;
+    color: black; }
+  .clinica__texto {
+    font-size: 28px;
+    color: black;
+    width: 600px;
+    padding: 30px; }
+  .clinica__img {
+    width: 300px;
+    height: 300px; }
 
 @media (max-width: 1000px) {
   .clinica {
-    height: 700px;
-  }
-
-  .clinica__header {
-    flex-direction: column;
-    height: 600px;
-  }
-}
+    height: 700px; }
+    .clinica__header {
+      flex-direction: column;
+      height: 600px; } }
 
 @media (max-width: 600px) {
   .clinica__texto {
-    width: 400px;
-  }
-}
+    width: 400px; } }
 
 @media (max-width: 450px) {
   .clinica {
-    height: 800px;
-  }
-
-  .clinica__header {
-    height: 700px;
-  }
-
-  .clinica__texto {
-    width: 300px;
-  }
-}
+    height: 800px; }
+    .clinica__header {
+      height: 700px; }
+    .clinica__texto {
+      width: 300px; } }
 
 .diagnostico {
   background-color: #fff;
   font-family: Poppins;
   font-size: 55px;
   color: black;
-  text-align: center;
-}
-
-.diagnostico__title {
-  font-size: 55px;
-  color: black;
-}
-
-.diagnostico__texto {
-  font-size: 23px;
-  color: black;
-  width: 600px;
-  padding: 30px;
-}
-
-.diagnostico__header {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.diagnostico__img {
-  width: 400px;
-  height: 200px;
-}
-
-.diagnostico__list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.diagnostico__tipos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  align-items: center;
-}
+  text-align: center; }
+  .diagnostico__title {
+    font-size: 55px;
+    color: black; }
+  .diagnostico__texto {
+    font-size: 23px;
+    color: black;
+    width: 600px;
+    padding: 30px; }
+  .diagnostico__header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+  .diagnostico__img {
+    width: 400px;
+    height: 200px; }
+  .diagnostico__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  .diagnostico__tipos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center; }
 
 @media (max-width: 1300px) {
   .diagnostico__tipos {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
+    grid-template-rows: repeat(2, 1fr); } }
 
 @media (max-width: 1000px) {
   .diagnostico__header {
     flex-direction: column;
-    height: 600px;
-  }
-}
+    height: 600px; } }
 
 @media (max-width: 700px) {
   .diagnostico__header img {
     width: 350px;
-    height: 150px;
-  }
-}
+    height: 150px; } }
 
 @media (max-width: 600px) {
   .diagnostico__list {
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
   .diagnostico__texto {
-    width: 400px;
-  }
-}
+    width: 400px; } }
 
 @media (max-width: 450px) {
   .diagnostico {
-    height: 2400px;
-  }
-
-  .diagnostico__header {
-    height: 700px;
-  }
-
-  .diagnostico__img {
-    width: 200px;
-    height: 100px;
-  }
-
-  .diagnostico__texto {
-    width: 300px;
-  }
-
-  .diagnostico__tipos {
-    height: 800px;
-  }
-}
+    height: 2400px; }
+    .diagnostico__header {
+      height: 700px; }
+    .diagnostico__img {
+      width: 200px;
+      height: 100px; }
+    .diagnostico__texto {
+      width: 300px; }
+    .diagnostico__tipos {
+      height: 800px; } }
 
 .cirugia {
-  background-color: #fff;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../imagenes/quirofano_operando2.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   font-family: Poppins;
-  font-size: 55px;
   color: black;
   text-align: center;
-  height: 600px;
-}
+  height: 400px; }
+  .cirugia__grid {
+    display: flex;
+    align-items: center;
+    justify-items: center; }
+  .cirugia__title {
+    font-size: 55px;
+    color: black; }
+  .cirugia__texto {
+    font-size: 25px;
+    color: black;
+    text-align: justify; }
+  .cirugia__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; }
+    .cirugia__lista ul li {
+      font-size: 33px;
+      color: black;
+      padding: 20px;
+      text-decoration: underline; }
 
-.cirugia__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: repeat(1, 1fr);
-  align-items: center;
-}
+@media (max-width: 900px) {
+  .cirugia {
+    height: 400px; }
+    .cirugia__title {
+      font-size: 30px; }
+    .cirugia__grid {
+      flex-direction: column; }
+    .cirugia__texto {
+      font-size: 18px; }
+    .cirugia__lista ul li {
+      font-size: 20px;
+      padding: 10px; } }
 
-.cirugia__title {
-  font-size: 55px;
+@media (max-width: 440px) {
+  .cirugia {
+    height: 500px; } }
+
+.peluqueria__cortes {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../imagenes/banodeperroygato.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Poppins;
   color: black;
-}
+  text-align: center;
+  height: 500px; }
 
-.cirugia__texto {
-  font-size: 28px;
-  color: black;
-  width: 600px;
-  padding: 30px;
-}
-
-.cirugia__lista {
+.peluqueria__perrosygatos {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-}
+  align-content: space-around;
+  font-size: 20px; }
 
-.cirugia__lista ul li {
-  font-size: 33px;
-  color: black;
-  padding: 30px;
-  text-decoration: underline;
-}
+.peluqueria__perros {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start; }
 
-@media (max-width: 1700px) {
-  .cirugia {
-    height: 1100px;
-  }
+.peluqueria__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px; }
+  .peluqueria__list li {
+    list-style: none; }
+    .peluqueria__list li::before {
+      content: "\2022";
+      /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: red;
+      /* Change the color */
+      /* If you want it to be bold */
+      /* Also needed for space (tweak if needed) */
+      margin-right: 4px;
+      /* Also needed for space (tweak if needed) */ }
 
-  .cirugia__grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 0.5fr);
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-  }
-}
+.peluqueria__gatos {
+  width: 600px; }
 
-@media (max-width: 1130px) {
-  .cirugia {
-    height: 1800px;
-  }
+.peluqueria__aseo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start; }
 
-  .cirugia__lista {
-    flex-direction: column;
-    align-items: center;
-  }
+@media (max-width: 850px) {
+  .peluqueria {
+    height: 1500px; }
+    .peluqueria__cortes {
+      height: 700px; }
+    .peluqueria__aseo {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 800px; } }
 
-  .cirugia__texto {
-    width: 400px;
-  }
-}
-
-@media (max-width: 470px) {
-  .cirugia {
-    height: 1800px;
-  }
-
-  .cirugia__texto {
-    width: 300px;
-  }
-}
+@media (max-width: 320px) {
+  .peluqueria__cortes {
+    height: 900px; }
+  .peluqueria {
+    height: 1700px; } }
 
 body {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-}
+  font-family: "Poppins", Helvetica, Arial, sans-serif; }
 
 .quienessomos {
-  width: 100%;
-}
-
-.quienessomos_encabezado {
-  background-image: url(../imagenes/perros_gatos_china.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-position-x: center;
-  width: 100%;
-  height: 900px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-size: 20px;
-  font-weight: 200;
-  position: relative;
-  animation: quienessomos_transition 3s forwards;
-}
-
-.quienessomos_encabezado h1 {
-  padding-left: 20px;
-}
-
-.quienessomos_encabezado h2 {
-  padding-left: 20px;
-}
+  width: 100%; }
+  .quienessomos_encabezado {
+    background-image: url(../imagenes/perros_gatos_china.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    animation: quienessomos_transition 3s forwards; }
+    .quienessomos_encabezado h1 {
+      padding-left: 20px; }
+    .quienessomos_encabezado h2 {
+      padding-left: 20px; }
 
 @keyframes quienessomos_transition {
   0% {
-    left: -100%;
-  }
-
+    left: -100%; }
   100% {
-    left: 0%;
-  }
-}
+    left: 0%; } }
 
 .especialistas {
   background-color: #fff;
@@ -1151,38 +896,29 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
   align-items: center;
-  justify-items: center;
-}
-
-.especialistas h2 {
-  color: purple;
-  font-size: 42px;
-  line-height: 50px;
-  font-weight: 300;
-  letter-spacing: 0px;
-}
-
-.especialistas__datos {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  width: 200px;
-}
-
-.especialistas__menu li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: black;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0px;
-  width: 300px;
-}
-
-.especialistas__menu li p {
-  margin: 0px;
-}
+  justify-items: center; }
+  .especialistas h2 {
+    color: purple;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 0px; }
+  .especialistas__datos {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 200px; }
+  .especialistas__menu li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    width: 300px; }
+    .especialistas__menu li p {
+      margin: 0px; }
 
 .quienes__somos {
   display: grid;
@@ -1193,86 +929,90 @@ body {
   height: 400px;
   font-size: 30px;
   font-weight: 300;
-  width: 100%;
-}
-
-.quienes__somos ul li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.quienes__somos ul li p {
-  margin: 0px 0px 0px 10px;
-}
+  width: 100%; }
+  .quienes__somos ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .quienes__somos ul li p {
+      margin: 0px 0px 0px 10px; }
 
 @media (max-width: 1390px) {
   .especialistas {
     grid-template-columns: 0.7fr, 0.5fr, 0.5fr, 1fr;
     grid-template-rows: repeat(1, 1fr);
     height: x00px;
-    margin: 20px;
-  }
-
-  .especialistas h2 {
-    font-size: 35px;
-  }
-
-  .especialistas__img img {
-    width: 400px;
-    height: 200px;
-  }
-
+    margin: 20px; }
+    .especialistas h2 {
+      font-size: 35px; }
+    .especialistas__img img {
+      width: 400px;
+      height: 200px; }
   .quienes__somos {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    height: 500px;
-  }
-}
+    height: 500px; } }
 
 @media (max-width: 1290px) {
   .especialistas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
-
-  .especialistas__datos {
-    margin: 0px;
-  }
-
+    justify-content: center; }
+    .especialistas__datos {
+      margin: 0px; }
   .quienessomos_encabezado {
-    font-size: 10px;
-  }
-}
+    font-size: 10px; } }
 
 @media (max-width: 480px) {
   .especialistas__img img {
     width: 200px;
-    height: 100px;
-  }
-
+    height: 100px; }
   .quienes__somos {
     font-size: 15px;
-    height: 350px;
-  }
-
+    height: 350px; }
   .quienessomos_encabezado {
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   .especialistas p {
-    font-size: 15px;
-  }
-}
+    font-size: 15px; } }
 
 @media (max-width: 350px) {
   .especialistas {
-    align-items: flex-start;
-  }
+    align-items: flex-start; }
+    .especialistas p {
+      font-size: 10px; } }
 
-  p {
-    font-size: 10px;
-  }
-}
+.farmacia {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/imagenes/farmaciavete2.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-size: 55px;
+  font-family: Poppins;
+  color: black;
+  text-align: center;
+  height: 900px;
+  text-align: center; }
+  .farmacia h1 {
+    font-size: 75px; }
+
+@media (max-width: 1200px) {
+  .farmacia {
+    height: 600px; } }
+
+@media (max-width: 800px) {
+  .farmacia {
+    font-size: 23px;
+    height: 500px; }
+    .farmacia h1 {
+      font-size: 35px; } }
+
+@media (max-width: 500px) {
+  .farmacia {
+    height: 300px; } }
+
+@media (max-width: 330px) {
+  .farmacia {
+    font-size: 20px;
+    height: 200px; }
+    .farmacia h1 {
+      font-size: 30px; } }
