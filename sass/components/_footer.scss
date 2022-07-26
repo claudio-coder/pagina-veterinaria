@@ -10,7 +10,7 @@
     margin-top: 20px;
 
     &__explora {
-        margin: 30px;
+        margin: $margin3;
         display: flex;
         flex-direction: column;
         justify-items: left;
@@ -19,7 +19,7 @@
     }
 
     &__explora__logo {
-        margin: 30px;
+        margin: $margin3;
     }
 
 }

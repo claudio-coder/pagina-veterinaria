@@ -1,0 +1,127 @@
+.peluqueria {
+
+    &__cortes {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../imagenes/banodeperroygato.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        font-family: Poppins;
+        color: $fontBlack;
+        text-align: center;
+        height: 1200px;
+    }
+
+    &__perrosygatos {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        font-size: 20px;
+    }
+
+    &__perros {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 500px;
+
+        & li {
+            list-style: none;
+
+            &::before {
+                content: "\2022";
+                /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                color: red;
+                /* Change the color */
+                // font-weight: bold;
+                /* If you want it to be bold */
+
+                /* Also needed for space (tweak if needed) */
+                margin-right: 4px;
+                /* Also needed for space (tweak if needed) */
+            }
+
+        }
+    }
+
+    &__gatos {
+        width: 600px;
+    }
+
+    &__aseo {
+        background-color: $fontlight;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+
+}
+
+@media (max-width:1700px) {
+    .peluqueria {
+
+        &__cortes {
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .peluqueria {
+
+        &__cortes {
+            height: 400px;
+        }
+    }
+}
+
+@media (max-width:850px) {
+    .peluqueria {
+        height: 1000px;
+
+        &__cortes {
+            height: 400px;
+        }
+
+        &__aseo {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+        }
+
+    }
+}
+
+@media (max-width:770px) {
+    .peluqueria {
+        height: 1000px;
+
+        &__cortes {
+            height: 300px;
+        }
+
+        &__perrosygatos {
+            font-size: 12px;
+
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .peluqueria__cortes {
+        height: 450px;
+    }
+
+    .peluqueria {
+        height: 1200px;
+    }
+}

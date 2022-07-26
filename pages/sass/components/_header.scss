@@ -1,0 +1,55 @@
+.header {
+    background-color: #625380;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    animation: header_transition 5s;
+    z-index: 2;
+    color: $fontlight;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        color: $fontlight;
+    }
+
+    &__content_2 {
+        width: 100%;
+
+    }
+
+    &__content_2 ul li a {
+        color: $fontlight;
+    }
+
+    &__servicios {
+        background-color: #917ac0;
+
+
+    }
+
+    & a:hover {
+        color: orange;
+        text-decoration: underline;
+
+    }
+
+
+}
+
+
+
+@keyframes header_transition {
+    0% {
+        top: -100px;
+        position: relative;
+    }
+
+    100% {
+        top: 0px;
+        position: relative;
+    }
+}
