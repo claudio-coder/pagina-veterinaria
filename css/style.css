@@ -633,25 +633,25 @@ ul {
     font-size: 23px; } }
 
 .clinica {
-  background-color: #fff;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../imagenes/reunionperrosgatos.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   font-family: Poppins;
-  font-size: 55px;
   color: black;
   text-align: center;
-  height: 500px; }
+  height: 1200px; }
   .clinica__header {
     width: 100%;
-    height: 400px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 20px; }
-  .clinica__title {
-    font-size: 55px;
+    align-items: center; }
+  .clinica__title h1 {
+    font-size: 65px;
     color: black; }
   .clinica__texto {
-    font-size: 28px;
+    font-size: 50px;
     color: black;
     width: 600px;
     padding: 30px; }
@@ -659,12 +659,13 @@ ul {
     width: 300px;
     height: 300px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .clinica {
     height: 700px; }
-    .clinica__header {
-      flex-direction: column;
-      height: 600px; } }
+    .clinica__title h1 {
+      font-size: 55px; }
+    .clinica__texto {
+      font-size: 40px; } }
 
 @media (max-width: 600px) {
   .clinica__texto {
