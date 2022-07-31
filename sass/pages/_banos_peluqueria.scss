@@ -116,7 +116,24 @@
     }
 }
 
-@media (max-width:320px) {
+// @media (max-width:470px) {
+//     .peluqueria {
+//         // height: 1000px;
+
+//         &__cortes {
+//             height: 400px;
+//         }
+
+//         // &__perrosygatos {
+//         //     font-size: 12px;
+
+//         // }
+//     }
+// }
+
+
+
+@media (max-width:470px) {
     .peluqueria__cortes {
         height: 450px;
     }

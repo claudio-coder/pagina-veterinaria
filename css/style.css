@@ -870,7 +870,7 @@ ul {
     .peluqueria__perrosygatos {
       font-size: 12px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .peluqueria__cortes {
     height: 450px; }
   .peluqueria {
