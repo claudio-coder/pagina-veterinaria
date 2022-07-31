@@ -10,7 +10,6 @@
     & h1 {
         font-style: italic;
         font-size: 90px;
-        font-family: 'Righteous', cursive;
 
     }
 
@@ -119,6 +118,7 @@
     justify-content: center;
     align-items: center;
 
+
     & img {
         height: 100px;
         width: 100px;
@@ -150,7 +150,7 @@
 .button {
     background-color: #625380;
     color: white;
-    padding:$padding1;
+    padding: $padding1;
     border-radius: $borderRadius10;
 
     &:hover {
@@ -294,6 +294,10 @@
     .cardservicios {
         width: 200px;
         height: 300px;
+
+        & h5 {
+            text-align: center;
+        }
     }
 
     .somos_texto p {
