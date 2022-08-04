@@ -69,21 +69,39 @@
     .peluqueria {
 
         &__cortes {
+            height: 800px;
+        }
+    }
+}
+
+@media (max-width:1500px) {
+    .peluqueria {
+
+        &__cortes {
+            height: 700px;
+        }
+    }
+}
+
+@media (max-width:1350px) {
+    .peluqueria {
+
+        &__cortes {
+            height: 600px;
+        }
+    }
+}
+
+@media (max-width:1100px) {
+    .peluqueria {
+
+        &__cortes {
             height: 500px;
         }
     }
 }
 
-@media (max-width:1000px) {
-    .peluqueria {
-
-        &__cortes {
-            height: 400px;
-        }
-    }
-}
-
-@media (max-width:850px) {
+@media (max-width:900px) {
     .peluqueria {
         height: 1000px;
 
@@ -106,7 +124,7 @@
         height: 1000px;
 
         &__cortes {
-            height: 300px;
+            height: 350px;
         }
 
         &__perrosygatos {
