@@ -18,5 +18,8 @@
   "homepage": "https://github.com/claudio-coder/pagina-veterinaria#readme",
   "devDependencies": {
     "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }
