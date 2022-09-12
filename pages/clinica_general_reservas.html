@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Centro Medico Veterinario Lanus: Clinica General, Vacunas, Cardiología, Hematología,Cirugia General y Traumatológica , Fisioterapia, Homeopatia, Acupuntura, Osteopatía,Oncología" />
-    <title>VETERINARIA LANUS - CONTACTANOS - CLINICA GENERAL</title>
+    <title>VETERINARIA LANUS - CLINICA GENERAL - OSTEOPATIA - REHABILITACION</title>
     <link rel="shortcut icon" href="../imagenes/logo_nuevo.jpeg" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <script src="../js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="./contacto.css" />
+    <link rel="stylesheet" href="./clinicageneral__reservas.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap" rel="stylesheet" />
@@ -56,7 +56,8 @@
                                 <li><a class="dropdown-item" href="./farmacia.html">Farmacia</a>
                                 </li>
                                 <li><a class="dropdown-item" href="./fisioterapia.html">Fisioterapia</a>
-                                <li><a class="dropdown-item" href="./banos_peluqueria.html">Baños y Peluqueria</a>
+                                <li><a class="dropdown-item" href="./banos_peluqueria.html">Baños y
+                                        Peluqueria</a>
                                 </li>
                             </ul>
                         </li>
@@ -82,87 +83,37 @@
         </nav>
     </header>
     <main>
-        <section class="contacto">
-            <article class="contacto__bloque">
-                <div class="contacto__datos">
-                    <div class="contacto__dir">
-                        <div class="contacto__img">
-                            <img src="../imagenes/buscar-en-el-mapa.png" alt="mapa" width="50px" height="50px" />
-                        </div>
-                        <div class="contacto__dir__number">
-                            <h2>Dirección</h2>
-                            <p>Villa de Lujan 2941 , Lanús</p>
-                        </div>
-                    </div>
-                    <div class="contacto__telefono">
-                        <div class="contacto__img">
-                            <img src="../imagenes/telephone-call.png" alt="telefono" width="50px" height="50px" />
-                        </div>
-                        <div class="contacto__telefono__number">
-                            <h2>Telefono</h2>
-                            <p>011-4225-7785</p>
-                        </div>
-                    </div>
-                    <div class="contacto__redes">
-                        <div class="contacto__img">
-                            <img src="../imagenes/group.png" alt="grupo" width="50px" height="50px" />
-                        </div>
-                        <div class="contacto__redes__tipos">
-                            <div class="contacto__redes__nombre">
-                                <h2>Redes</h2>
-                            </div>
-                            <div class="redes__img">
-                                <img src="../imagenes/facebook.png" alt="facebook" width="30px" height="30px" />
-                                <img src="../imagenes/instagram.png" alt="instagran" width="30px" height="30px" />
-                                <img src="../imagenes/whatsapp.png" alt="whatsapp" width="30px" height="30px" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contacto__email">
-                        <div class="contacto__img">
-                            <img src="../imagenes/post-office.png" alt="email" width="50px" height="50px" />
-                        </div>
-                        <div class="contacto__email__tipos">
-                            <h2>Atención</h2>
-                            <p>c.m.veterinarialanus@hotmail.com</p>
-                        </div>
-                    </div>
-
+        <div class="clinica__general__reservas">
+            <div class="clinica__general__reservas_encabezado">
+                <h1><span style="color: #1d4f91 ;">RESERVA DE TURNOS</span></h1>
+            </div>
+            <div class="grid_reservas--cg">
+                <div class="cardreservas--cg">
+                    <h6 class="button__reserva">Clinica General</h6>
                 </div>
-                <div class="hablemos">
-                    <h2>HABLEMOS</h2>
-                    <!-- <form> -->
-                    <div class="hablemos__datos">
-                        <form action="" method="" enctype="">
-                            <div class="hablemos__datos__personal">
-                                <div>
-                                    <label for="nombre">Ingrese su Nombre</label>
-                                    <input type="text" id="nombre" placeholder="Nombre..." />
-                                </div>
-                                <div>
-                                    <label for="apellido">Ingrese su Apellido</label>
-                                    <input type="text" id="apellido" placeholder="Apellido..." />
+                <form class="reserva__pedido" id="formulario">
+                    <!-- <div class="reserva__pedido"> -->
+                    <div>
+                        <label for="nombre">Ingrese el nombre del paciente</label>
+                        <!-- <input type="text" id="nombrePaciente" /> -->
+                        <input type="text" />
 
-                                </div>
-                                <div>
-                                    <label for="correo">Ingrese su Email</label>
-                                    <input type="email" id="correo" placeholder="Email.." />
-                                </div>
-                                <div class="hablemos__datos__mensaje">
-                                    <label for="mensaje">Mensaje</label>
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje..."></textarea>
-
-                                </div>
-                                <button type="submit" class="button_mail">Enviar</button>
-
-                            </div>
-
-                            <img src="../imagenes/mirando.jpg" alt="mirando" width="500px" height="200px" />
                     </div>
-                    <!-- </form> -->
-                </div>
-            </article>
-        </section>
+                    <div>
+                        <label for="apellido">Ingrese su Nombre o Apellido</label>
+                        <!-- <input type="text" id="nombreCliente" /> -->
+                        <input type="text2" />
+
+                    </div>
+                    <div>
+                        <button type="submit" class="button_mail">Enviar</button>
+
+                    </div>
+                    <!-- </div> -->
+                </form>
+
+            </div>
+        </div>
     </main>
     <footer class=" mt-5 bg-dark text-light">
         <div class="container md-2 d-flex justify-content-arround">
@@ -196,7 +147,7 @@
                         </li>
                         <li>
                             <img src="../imagenes/chevron-right-white.png" alt="flecha" width="20px" height="20px" />
-                            <a href="./banos_peluqueria.html">Baños y Peluquería</a>
+                            <a href="./pages/banos_peluqueria.html">Baños y Peluquería</a>
                         </li>
 
                     </ul>
@@ -237,6 +188,26 @@
             </div>
         </div>
     </footer>
+    <!-- <script src="../js/index.js"> -->
+    <script>
+        let servicio;
+        servicio = 1;
+        console.log(servicio);
+
+        let formulario = document.getElementById("formulario");
+        formulario.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+        })
+
+
+
+
+
+
+    </script>
+
+    <!-- </script> -->
 </body>
 
 </html>
