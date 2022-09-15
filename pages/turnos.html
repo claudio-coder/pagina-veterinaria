@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <script src="../js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="./clinicageneral__reservas.css" />
+    <link rel="stylesheet" href="../sass/pages/_turnos.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap" rel="stylesheet" />
@@ -88,28 +88,24 @@
                 <h1><span style="color: #1d4f91 ;">RESERVA DE TURNOS</span></h1>
             </div>
             <div class="grid_reservas--cg">
-                <div class="cardreservas--cg">
+                <div class="cardreservas--cg" id="cualservicio">
                     <h6 class="button__reserva">Clinica General</h6>
                 </div>
                 <form class="reserva__pedido" id="formulario">
-                    <!-- <div class="reserva__pedido"> -->
                     <div>
                         <label for="nombre">Ingrese el nombre del paciente</label>
-                        <!-- <input type="text" id="nombrePaciente" /> -->
-                        <input type="text" />
+                        <input type="text" id="nombrePaciente" />
 
                     </div>
                     <div>
                         <label for="apellido">Ingrese su Nombre o Apellido</label>
-                        <!-- <input type="text" id="nombreCliente" /> -->
-                        <input type="text2" />
+                        <input type="text" id="nombreCliente" />
 
                     </div>
                     <div>
-                        <button type="submit" class="button_mail">Enviar</button>
+                        <input type="submit" class="button_mail" value="Enviar" />
 
                     </div>
-                    <!-- </div> -->
                 </form>
 
             </div>
@@ -188,26 +184,7 @@
             </div>
         </div>
     </footer>
-    <!-- <script src="../js/index.js"> -->
-    <script>
-        let servicio;
-        servicio = 1;
-        console.log(servicio);
-
-        let formulario = document.getElementById("formulario");
-        formulario.addEventListener("submit", (e) => {
-            e.preventDefault();
-
-        })
-
-
-
-
-
-
-    </script>
-
-    <!-- </script> -->
+    <script src="../js/turnos.js"></script>
 </body>
 
 </html>
