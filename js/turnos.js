@@ -17,8 +17,9 @@ const TIEMPO_TURNO = 15;
 function comenzarDiaLaboral(nombrePaciente, nombreCliente) {
 
     const serviciosPedido = JSON.parse(localStorage.getItem("servicios"));
-    const servicioReservado = servicioReservado.find(serviciosPedido => serviciosPedido[id] === servicio);
-    console.log(serviciosPedido[5].id);
+
+    const servicioReservado = servicioReservado.find(serviciosPedido => serviciosPedido["id"] === servicio);
+    console.log(servicioReservado);
     // for (i = 0; i < 8; i++) {
     //     const servicioRequerido = serviciosPedido => (serviciosPedido[i].id === params);
     // }

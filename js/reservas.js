@@ -15,9 +15,6 @@ if (localStorage.getItem("servicios") === null) {
 
 }
 
-
-
-
 class Reservas {
     constructor(id) {
         this.lasReservas = document.getElementById(id);
