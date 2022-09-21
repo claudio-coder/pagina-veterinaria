@@ -1,19 +1,19 @@
-// import { SERVICIOS } from "./reservas";
 
-const turnosCintya = [];
-const turnosEduardo = [];
-const turnosPatricia = [];
-const turnosDaniel = [];
-const turnosElvira = [];
-const turnosSilvina = [];
-const turnosAlejandra = [];
-const turnosLeonardo = [];
-const turnosSusana = [];
+// const turnosCintya = [];
+// const turnosEduardo = [];
+// const turnosPatricia = [];
+// const turnosDaniel = [];
+// const turnosElvira = [];
+// const turnosSilvina = [];
+// const turnosAlejandra = [];
+// const turnosLeonardo = [];
+// const turnosSusana = [];
 
 const MAX_TURNOS = 5;
 const TIEMPO_TURNO = 15;
 
 
+<<<<<<< HEAD
 function comenzarDiaLaboral(nombrePaciente, nombreCliente) {
 
     const serviciosPedido = JSON.parse(localStorage.getItem("servicios"));
@@ -76,10 +76,22 @@ function comenzarDiaLaboral(nombrePaciente, nombreCliente) {
 let cualservicio = document.getElementById("cualservicio");
 
 
+=======
+>>>>>>> javascript
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
-let servicio = params;
-console.log(servicio);
+
+
+const servicioRequerido = JSON.parse(localStorage.getItem(params.id));
+
+
+const nombreServicio = document.getElementById("nombre_servicio");
+nombreServicio.innerText = servicioRequerido.nombre;
+
+
+console.log(servicioRequerido.turnos.length);
+console.log(servicioRequerido.turnos);
+
 
 let formulario = document.getElementById("formulario");
 formulario.addEventListener("submit", (e) => {
@@ -89,43 +101,45 @@ formulario.addEventListener("submit", (e) => {
 
 
     if (nombreCliente.value !== "" && nombrePaciente.value !== "") {
-        console.log(nombrePaciente.value);
-        console.log(nombreCliente.value);
-        comenzarDiaLaboral();
-
+        comenzarDiaLaboral(nombrePaciente.value, nombreCliente.value);
     }
 
 });
 
 
 
+function comenzarDiaLaboral(nombrePaciente, nombreCliente) {
 
-function asignarTurno(turnosProfesional, nombreProfesional, servicio) {
-    // alert(nombreProfesional);
-    if (turnosProfesional.length < MAX_TURNOS) {
+    if (servicioRequerido.turnos.length < MAX_TURNOS) {
+        const turno = { nombrePaciente, nombreCliente };
 
-        // nombrePaciente = recibirNombre("Ingrese el nombre del paciente");
-        // nombreCliente = recibirNombre("Ingrese el nombre del cliente");
+        const cualServicio = document.getElementById("cualservicio");
+        cualServicio.classList.add("d-none");
+        const profesionalReserva = document.getElementById("profesional_reserva");
+        profesionalReserva.classList.remove("d-none");
 
-        const turno = {
-            nombrePaciente, nombreCliente, servicio
-        };
 
-        turnosProfesional.push(turno);
+        const nombreProfesional = document.getElementById("profesional_nombre");
+        nombreProfesional.innerText = `${nombreProfesional.innerText} ${servicioRequerido.profesionales}`;
+        const profesionalTurno = document.getElementById("profesional_turno");
+        profesionalTurno.innerText = `${profesionalTurno.innerText} ${servicioRequerido.turnos.length}`;
+        const nombreMascota = document.getElementById("nombre_mascota");
+        nombreMascota.innerText = `${nombreMascota.innerText} ${nombrePaciente}`;
+        const nombrePropietario = document.getElementById("nombre_propietario");
+        nombrePropietario.innerText = `${nombrePropietario.innerText} ${nombreCliente}`;
 
-        console.log(`Turno #${turnosProfesional.length} Paciente: ${nombrePaciente} Cliente: ${nombreCliente} ${nombreProfesional} Tiempo de espera: ${TIEMPO_TURNO * (turnosProfesional.length - 1)}`);
+        servicioRequerido.turnos.push(turno);
+
+        localStorage.setItem(servicioRequerido.id, JSON.stringify(servicioRequerido))
+
+
+
     } else {
         console.log("se terminaron los turnos");
 
     }
 
-    // // function solicitarServicioAUsuario(servicio) {
-    // //     do {
-    // //         servicio = prompt("Ingrese el numero de servicio");
-    // //     } while (servicio < 1 || servicio >= 11)
-
-    // //     return servicio;
-    // // }
+}
 
 
 
@@ -137,12 +151,12 @@ function asignarTurno(turnosProfesional, nombreProfesional, servicio) {
     //     const turnosTotales = [...turnosElvira, ...turnosCintya, ...turnosEduardo, ...turnosAlejandra, ...turnosDaniel, ...turnosLeonardo, ...turnosPatricia, ...turnosSilvina, ...turnosSusana];
     //     const turnosReservados = turnosTotales.filter(unTurno => unTurno.nombrePaciente === nombrePaciente && unTurno.nombreCliente === nombreCliente);
 
-    //     const serviciosTotales = turnosReservados.map(unTurno => `${unTurno.servicio}`);
+    //     const serviciosTotales = turnosReservados.map(unTurno => `${ unTurno.servicio } `);
     //     const serviciosNoRepetidos = [...new Set(serviciosTotales)];
 
     //     let mensaje = "";
     //     serviciosNoRepetidos.forEach((servicio, index) => {
-    //         mensaje += `${index + 1} - ${servicio} \n`;
+    //         mensaje += `${ index + 1 } - ${ servicio } \n`;
     //     })
     //     reservaAnulada = prompt("Ingrese el ITEM a Anular", mensaje);
     //     alert(reservaAnulada);
@@ -163,18 +177,3 @@ function asignarTurno(turnosProfesional, nombreProfesional, servicio) {
 
     // }
 
-    // setTimeout(() => {
-    //     // do {
-    //     //     // const opcion = prompt("Ingrese 1 para PEDIR TURNO o 2 para ANULAR");
-    //     //     if (opcion === "1") {
-    //     //         comenzarDiaLaboral();
-    //     //     } else if (opcion === "2") {
-    //     //         anularTurno();
-    //     //     } else {
-    //     //         alert("Pusiste algo mal");
-    //     //     }
-
-    //     // }
-    //     //     while (true)
-    // }, 5000)
-}
