@@ -1223,10 +1223,65 @@ body {
     justify-content: center;
     align-items: center; }
 
+.reserva__profesional {
+  background-color: #fff;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 30px; }
+
+.cardprofesional--cg {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 20px; }
+
+.nombre__profesional {
+  color: black; }
+
+.button__profesional--cg {
+  background-color: #718e46;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center; }
+  .button__profesional--cg:hover {
+    opacity: 0.8;
+    transition: all 0.3s; }
+
+.button__servicio--cg {
+  background-color: #625380;
+  width: 400px;
+  color: white;
+  border-radius: 10px;
+  text-align: center; }
+
+body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  background-color: #fff; }
+
+.clinica__general__reservas {
+  width: 100%; }
+  .clinica__general__reservas_encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
 .grid_reservas--cg {
   background-color: #fff;
   width: 100%;
-  height: 600px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -1275,6 +1330,46 @@ body {
     transition: all 0.3s; }
 
 .reserva__pedido {
+  width: 550px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  background-color: #d3a9a9;
+  margin: 30px;
+  border-radius: 10px; }
+
+.button_aceptar {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 100%; }
+
+.button__turno--cg {
+  background-color: #625380;
+  width: 400px;
+  color: white;
+  border-radius: 10px;
+  text-align: center; }
+
+.button_turno {
+  background-color: #625380;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px; }
+
+.tarjeta_datos_ingreso {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+.tarjeta_datos_turno {
+  background-color: #d7acac;
   width: 550px;
   height: 300px;
   display: flex;
