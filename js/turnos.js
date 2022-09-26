@@ -10,10 +10,6 @@ const nombreServicio = document.getElementById("nombre_servicio");
 nombreServicio.innerText = servicioRequerido.nombre;
 
 
-console.log(servicioRequerido.turnos.length);
-console.log(servicioRequerido.turnos);
-
-
 let formulario = document.getElementById("boton_seguir");
 formulario.addEventListener("click", (e) => {
     e.preventDefault();
@@ -52,7 +48,6 @@ function comenzarDiaLaboral(nombrePaciente, nombreCliente) {
 let aceptoTurno = document.getElementById("boton_aceptar");
 aceptoTurno.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log("aca estoy");
 
     servicioRequerido.turnos.push(turno);
 
