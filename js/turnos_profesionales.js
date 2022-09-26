@@ -3,8 +3,6 @@ const MAX_TURNOS = 5;
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
 
-// const serviciosPedido = JSON.parse(localStorage.getItem("servicios"));
-// const servicioRequerido = serviciosPedido.find(unServicio => unServicio.id.toString() === params.id);
 const servicioRequerido = JSON.parse(localStorage.getItem(params.id));
 
 const nombreServicio = document.getElementById("nombre_servicio");
@@ -19,7 +17,6 @@ if (servicioRequerido.turnos.length < MAX_TURNOS) {
 } else {
     Swal.fire({
         icon: 'error',
-        // title: 'Oops...',
         text: 'Se terminaron los turnos',
         footer: '<a href="../pages/reserva.html">Volver</a>'
     })

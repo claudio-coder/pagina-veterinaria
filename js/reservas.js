@@ -16,11 +16,6 @@ SERVICIOS.forEach(unServicio => {
     }
 });
 
-// if (localStorage.getItem("servicios") === null) {
-//     localStorage.setItem("servicios", JSON.stringify(SERVICIOS));
-
-// }
-
 
 class Reservas {
     constructor(id) {
