@@ -1,3 +1,5 @@
+const MAX_TURNOS = 5;
+
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
 
@@ -11,6 +13,17 @@ nombreServicio.innerText = servicioRequerido.nombre;
 const nombreProfesional = document.getElementById("nombre_profesional");
 nombreProfesional.innerText = servicioRequerido.profesionales;
 
-const tagA = document.getElementById("boton_seleccionar");
-tagA.href = `../pages/turnos.html?id=${servicioRequerido.id}`;
+const selecciono = document.getElementById("boton_seleccionar");
+if (servicioRequerido.turnos.length < MAX_TURNOS) {
+    selecciono.href = `../pages/turnos.html?id=${servicioRequerido.id}`;
+} else {
+    Swal.fire({
+        icon: 'error',
+        // title: 'Oops...',
+        text: 'Se terminaron los turnos',
+        footer: '<a href="../pages/reserva.html">Volver</a>'
+    })
+    selecciono.href = `../pages/reserva.html`;
+}
+
 
