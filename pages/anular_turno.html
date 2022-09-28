@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Centro Medico Veterinario Lanus: Clinica General, Vacunas, Cardiología, Hematología,Cirugia General y Traumatológica , Fisioterapia, Homeopatia, Acupuntura, Osteopatía,Oncología" />
-    <title>VETERINARIA LANUS - CONTACTANOS - CLINICA GENERAL</title>
+    <title>VETERINARIA LANUS - CLINICA GENERAL - OSTEOPATIA - REHABILITACION</title>
     <link rel="shortcut icon" href="../imagenes/logo_nuevo.jpeg" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <script src="../js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../sass/pages/_rerserva.scss" />
+    <link rel="stylesheet" href="../sass/pages/_turnos.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap" rel="stylesheet" />
@@ -56,7 +56,8 @@
                                 <li><a class="dropdown-item" href="./farmacia.html">Farmacia</a>
                                 </li>
                                 <li><a class="dropdown-item" href="./fisioterapia.html">Fisioterapia</a>
-                                <li><a class="dropdown-item" href="./banos_peluqueria.html">Baños y Peluqueria</a>
+                                <li><a class="dropdown-item" href="./banos_peluqueria.html">Baños y
+                                        Peluqueria</a>
                                 </li>
                             </ul>
                         </li>
@@ -82,50 +83,57 @@
         </nav>
     </header>
     <main>
-        <div class="reserva">
-            <div class="reserva_encabezado">
-                <h1><span style="color: #1d4f91 ;">RESERVA DE TURNOS</span></h1>
-                <h2><span style="color: #1d4f91">Fijate que servicio necesitas para tu amigo y reserva turno con
-                        nuestros
-                        profesionales</span></h2>
+        <div class="clinica__general__reservas">
+            <div class="clinica__general__reservas_encabezado">
+                <h1><span style="color: #1d4f91 ;">ANULACION DE TURNOS</span></h1>
+                <h4 class="button__turno--cg m-0" id="nombre_servicio"></h4>
+            </div class="">
+            <div class="tarjeta_datos_ingreso" id="tarjeta_datos">
+                <div class="grid_reservas--cg" id="cualservicio">
+                    <form class="reserva__pedido" id="formulario">
+                        <div>
+                            <label for="nombre">Ingrese el nombre del paciente</label>
+                            <input type="text" id="nombrePaciente" />
 
+                        </div>
+                        <div>
+                            <label for="apellido">Ingrese su Nombre o Apellido</label>
+                            <input type="text" id="nombreCliente" />
 
-                <div class="grid_reservas">
-                    <div class="cardreservas">
-                        <a href="./clinica_general_reservas.html" class="button__reserva">Clinica General</a>
+                        </div>
+                        <div class="button_aceptar">
+
+                            <a href="./reserva.html" class="button_turno">Volver</a>
+
+                            <input type="button" class="button_turno" value="Seguir" id="boton_seguir">
+
+                        </div>
+                    </form>
+                </div>
+                <div class="tarjeta_datos_turno d-none" id="profesional_reserva">
+                    <div>
+                        <h4 class="m-0  rounded" id="profesional_nombre"> Profesional:</h4>
                     </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Medicina Holistica</h5>
+                    <div>
+                        <h4 class="m-0  rounded" id="profesional_turno">Número de Turno:</h4>
                     </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Metodo de Diagnostico</h5>
+                    <div>
+                        <h4 class="m-0  rounded" id="nombre_mascota">Nombre de Paciente:</h4>
                     </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva"> Electrocardiogramas</h5>
+                    <div>
+                        <h4 class="m-0  rounded" id="nombre_propietario">Nombre de Cliente:</h4>
                     </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Oncología</h5>
-                    </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Exóticos</h5>
-                    </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Fisioterapia</h5>
-                    </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Ecografias</h5>
-                    </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Farmacia</h5>
-                    </div>
-                    <div class="cardreservas">
-                        <h5 class="button__reserva">Baños y Peluquería</h5>
+                    <div class="button_aceptar">
+
+                        <a href="./reserva.html" class="button_turno">Volver</a>
+
+                        <input type="button" class="button_turno" value="Aceptar" id="boton_aceptar">
+
                     </div>
 
                 </div>
-                <img src="../imagenes/dogs-gd9fcb4be9_1280.jpg" alt="100px">
-            </div>
 
+            </div>
         </div>
     </main>
     <footer class=" mt-5 bg-dark text-light">
@@ -160,7 +168,7 @@
                         </li>
                         <li>
                             <img src="../imagenes/chevron-right-white.png" alt="flecha" width="20px" height="20px" />
-                            <a href="./banos_peluqueria.html">Baños y Peluquería</a>
+                            <a href="./pages/banos_peluqueria.html">Baños y Peluquería</a>
                         </li>
 
                     </ul>
@@ -200,9 +208,9 @@
 
             </div>
         </div>
-
     </footer>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/anular_turno.js"></script>
 </body>
 
 </html>

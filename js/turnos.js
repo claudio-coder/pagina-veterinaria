@@ -77,39 +77,3 @@ aceptoTurno.addEventListener("click", (e) => {
 })
 
 
-
-
-    // function anularTurno() {
-
-    //     nombrePaciente = recibirNombre("Ingrese el nombre del paciente");
-    //     nombreCliente = recibirNombre("Ingrese el nombre del cliente");
-
-    //     const turnosTotales = [...turnosElvira, ...turnosCintya, ...turnosEduardo, ...turnosAlejandra, ...turnosDaniel, ...turnosLeonardo, ...turnosPatricia, ...turnosSilvina, ...turnosSusana];
-    //     const turnosReservados = turnosTotales.filter(unTurno => unTurno.nombrePaciente === nombrePaciente && unTurno.nombreCliente === nombreCliente);
-
-    //     const serviciosTotales = turnosReservados.map(unTurno => `${ unTurno.servicio } `);
-    //     const serviciosNoRepetidos = [...new Set(serviciosTotales)];
-
-    //     let mensaje = "";
-    //     serviciosNoRepetidos.forEach((servicio, index) => {
-    //         mensaje += `${ index + 1 } - ${ servicio } \n`;
-    //     })
-    //     reservaAnulada = prompt("Ingrese el ITEM a Anular", mensaje);
-    //     alert(reservaAnulada);
-    //     alert(serviciosNoRepetidos);
-    //     const reservaBajada = (reservaAnulada - 1);
-    //     alert(reservaBajada);
-    //     const servicioAnulado = (serviciosNoRepetidos[reservaBajada]);
-    //     alert(servicioAnulado);
-
-    //     if (servicioAnulado === "Clínica general") {
-    //         alert("estoy bien");
-    //         alert(turnosElvira);
-
-    //         const turnosElvira = turnosElvira.filter(turnoNoAnulado => turnoNoAnulado.nombrePaciente === nombrePaciente && turnoNoAnulado.nombreCliente === nombreCliente);
-    //     } else
-    //         alert("no es este");
-
-
-    // }
-
