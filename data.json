@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "nombre": "Clinica General",
+        "turnos": [],
+        "profesionales": [
+            "Dra Elvira"
+        ]
+    },
+    {
+        "id": "2",
+        "nombre": "Medicina Holistica",
+        "turnos": [],
+        "profesionales": [
+            "Dra Patricia"
+        ]
+    },
+    {
+        "id": "3",
+        "nombre": "Metodo de Diagnostico",
+        "turnos": [],
+        "profesionales": [
+            "Dra Cintya"
+        ]
+    },
+    {
+        "id": "4",
+        "nombre": "Electro/Ecografias",
+        "turnos": [],
+        "profesionales": [
+            "Dr Daniel"
+        ]
+    },
+    {
+        "id": "5",
+        "nombre": "Oncología",
+        "turnos": [],
+        "profesionales": [
+            "Dra Alejandra"
+        ]
+    },
+    {
+        "id": "6",
+        "nombre": "Exóticos",
+        "turnos": [],
+        "profesionales": [
+            "Dr Leonardo"
+        ]
+    },
+    {
+        "id": "7",
+        "nombre": "Fisioterapia",
+        "turnos": [],
+        "profesionales": [
+            "Dra Patricia"
+        ]
+    },
+    {
+        "id": "8",
+        "nombre": "Baños y Peluquería",
+        "turnos": [],
+        "profesionales": [
+            "Sra Susana"
+        ]
+    }
+]

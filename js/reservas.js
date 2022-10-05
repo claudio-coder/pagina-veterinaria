@@ -1,21 +1,13 @@
-const SERVICIOS = [
-    { id: "1", nombre: "Clinica General", turnos: [], profesionales: ["Dra Elvira"] },
-    { id: "2", nombre: "Medicina Holistica", turnos: [], profesionales: ["Dra Patricia"] },
-    { id: "3", nombre: "Metodo de Diagnostico", turnos: [], profesionales: ["Dra Cintya"] },
-    { id: "4", nombre: "Electro/Ecografias", turnos: [], profesionales: ["Dr Daniel"] },
-    { id: "5", nombre: "Oncología", turnos: [], profesionales: ["Dra Alejandra"] },
-    { id: "6", nombre: "Exóticos", turnos: [], profesionales: ["Dr Leonardo"] },
-    { id: "7", nombre: "Fisioterapia", turnos: [], profesionales: ["Dra Patricia"] },
-    { id: "8", nombre: "Baños y Peluquería", turnos: [], profesionales: ["Sra Susana"] },
 
-]
-
-SERVICIOS.forEach(unServicio => {
-    if (localStorage.getItem(unServicio.id) === null) {
-        localStorage.setItem(unServicio.id, JSON.stringify(unServicio));
-    }
-});
-
+fetch("../data.json")
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(unServicio => {
+            if (localStorage.getItem(unServicio.id) === null) {
+                localStorage.setItem(unServicio.id, JSON.stringify(unServicio));
+            }
+        });
+    })
 
 class Reservas {
     constructor(id) {
@@ -30,9 +22,12 @@ class Reservas {
     getReservas() {
         let reservas = "";
 
+        let servicios = [];
+        for (let i = 1; i <= 8; i++) {
+            servicios.push(JSON.parse(localStorage.getItem(i)));
+        }
 
-
-        SERVICIOS.forEach(unServicio => {
+        servicios.forEach(unServicio => {
             reservas = reservas.concat(`<div class="cardreservas"><a href="../pages/turnos_profesionales.html?id=`)
                 .concat(unServicio.id)
                 .concat(`" class="button__reserva"> `)
@@ -47,4 +42,5 @@ class Reservas {
 
     }
 
-}
+};
+

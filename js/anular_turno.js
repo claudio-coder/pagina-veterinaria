@@ -22,26 +22,40 @@ function anularTurno() {
 
 
 
+    // console.log(servicioAnulado);
+
+
     console.log(servicioAnulado);
-
-
-    console.log(servicioAnulado.turnos);
 
     turnoparaAnular = servicioAnulado.turnos;
 
     console.log(turnoparaAnular);
+    console.log(turnoparaAnular.length);
+    console.log(turnoparaAnular[0]);
+    console.log(turnoparaAnular[1]);
+    console.log(turnoparaAnular[2]);
+    console.log(nombreCliente.value);
+    console.log(nombrePaciente.value);
 
-    turnoAnulado = turnoparaAnular.filter(unTurno => unTurno.nombrePaciente === nombrePaciente && unTurno.nombreCliente === nombreCliente);
+    console.log(turnoparaAnular[0].nombreCliente);
+    console.log(turnoparaAnular[0].nombrePaciente);
 
-    console.log(turnoAnulado);
+    if (turnoparaAnular[0].nombreCliente === nombreCliente.value && turnoparaAnular[0].nombrePaciente === nombrePaciente.value) {
+        console.log("estoy accaaaaaaa");
+    }
+    console.log("que pasoooooo");
+
+    // turnoAnulado = turnoparaAnular.filter(turnoparaAnular => turnoparaAnular.nombrePaciente === nombrePaciente && turnoparaAnular.nombreCliente === nombreCliente);
+
+    // console.log(turnoAnulado);
 
 
     // turnoAnulado = servicioAnulado.turnos;
     // console.log(turnoAnulado);
 
 
-    const turnosTotales = [...turnosElvira, ...turnosCintya, ...turnosEduardo, ...turnosAlejandra, ...turnosDaniel, ...turnosLeonardo, ...turnosPatricia, ...turnosSilvina, ...turnosSusana];
-    const turnosReservados = turnosTotales.filter(unTurno => unTurno.nombrePaciente === nombrePaciente && unTurno.nombreCliente === nombreCliente);
+    // const turnosTotales = [...turnosElvira, ...turnosCintya, ...turnosEduardo, ...turnosAlejandra, ...turnosDaniel, ...turnosLeonardo, ...turnosPatricia, ...turnosSilvina, ...turnosSusana];
+    // const turnosReservados = turnosTotales.filter(unTurno => unTurno.nombrePaciente === nombrePaciente && unTurno.nombreCliente === nombreCliente);
 
     const serviciosTotales = turnosReservados.map(unTurno => `${unTurno.servicio} `);
     const serviciosNoRepetidos = [...new Set(serviciosTotales)];
