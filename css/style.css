@@ -1306,6 +1306,11 @@ body {
   .cardreservas--cg:hover {
     transform: perspective(420px) translateZ(40px); }
 
+.grid__anular {
+  display: grid;
+  justify-items: center;
+  align-items: center; }
+
 .button__reserva--cg {
   background-color: #625380;
   color: white;
@@ -1368,10 +1373,10 @@ body {
   justify-items: center;
   align-items: center; }
 
-.tarjeta_datos_turno {
+.anular_datos_turno {
   background-color: #d7acac;
-  width: 550px;
-  height: 300px;
+  width: 900px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;

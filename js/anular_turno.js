@@ -1,3 +1,14 @@
+function queAnular(turnoaAnular, keyServicio) {
+    const servicioAnulado = JSON.parse(localStorage.getItem(keyServicio));
+    servicioAnulado.turnos.splice(turnoaAnular, 1)
+
+    localStorage.setItem(servicioAnulado.id, JSON.stringify(servicioAnulado));
+
+    const nombrePaciente = document.getElementById("nombrePaciente");
+    const nombreCliente = document.getElementById("nombreCliente");
+
+    anularTurno(nombrePaciente, nombreCliente);
+}
 
 let formulario = document.getElementById("boton_seguir");
 formulario.addEventListener("click", (e) => {
@@ -7,79 +18,59 @@ formulario.addEventListener("click", (e) => {
 
 
     if (nombreCliente.value !== "" && nombrePaciente.value !== "") {
-        anularTurno(nombrePaciente.value, nombreCliente.value);
-
+        anularTurno(nombrePaciente, nombreCliente);
     }
-
 });
 
 
-function anularTurno() {
-    let params = 6;
-    // localStorage.getItem(servicioRequerido.id, JSON.stringify(servicioRequerido))
-    const servicioAnulado = JSON.parse(localStorage.getItem(params));
-    // const turnoAnulado = servicioAnulado.
+function anularTurno(nombrePaciente, nombreCliente) {
+    let reservasAnular = "";
+
+    const anularServicio = document.getElementById("anularservicio");
+    anularServicio.classList.add("d-none");
+    const anularPlaca = document.getElementById("anulacion");
+    anularPlaca.classList.remove("d-none");
 
 
+    const anularReserva = document.getElementById("anular_reserva");
 
-    // console.log(servicioAnulado);
 
+    for (let i = 1; i < 9; i++) {
+        const servicioAnulado = JSON.parse(localStorage.getItem(i));
+        turnosParaAnular = servicioAnulado.turnos;
+        nombreAnular = servicioAnulado.nombre;
 
-    console.log(servicioAnulado);
+        for (let index = 0; index < turnosParaAnular.length; index++) {
+            if (turnosParaAnular[index].nombrePaciente === nombrePaciente.value && turnosParaAnular[index].nombreCliente === nombreCliente.value) {
 
-    turnoparaAnular = servicioAnulado.turnos;
-
-    console.log(turnoparaAnular);
-    console.log(turnoparaAnular.length);
-    console.log(turnoparaAnular[0]);
-    console.log(turnoparaAnular[1]);
-    console.log(turnoparaAnular[2]);
-    console.log(nombreCliente.value);
-    console.log(nombrePaciente.value);
-
-    console.log(turnoparaAnular[0].nombreCliente);
-    console.log(turnoparaAnular[0].nombrePaciente);
-
-    if (turnoparaAnular[0].nombreCliente === nombreCliente.value && turnoparaAnular[0].nombrePaciente === nombrePaciente.value) {
-        console.log("estoy accaaaaaaa");
+                reservasAnular = reservasAnular.concat(`<div class="row d-flex align-items-center"><div class="col text-center m-2"><h4>`)
+                    .concat(nombreAnular)
+                    .concat(`<h4></div>`)
+                    .concat(`<div class="col text-center" ><h4>`)
+                    .concat(index + 1)
+                    .concat(`<h4></div>`)
+                    .concat(`<div class= "col text-center"><input type="button" button onclick="queAnular(`)
+                    .concat(index)
+                    .concat(`,`)
+                    .concat(i)
+                    .concat(`)" class="button_turno" value="Anular" ></div></div>`)
+            }
+        }
     }
-    console.log("que pasoooooo");
 
-    // turnoAnulado = turnoparaAnular.filter(turnoparaAnular => turnoparaAnular.nombrePaciente === nombrePaciente && turnoparaAnular.nombreCliente === nombreCliente);
+    anularReserva.innerHTML = reservasAnular;
+    if (reservasAnular === "") {
+        Swal.fire({
+            icon: 'error',
+            text: 'No tiene turnos reservados',
+            footer: '<a href="../pages/reserva.html">Volver</a>',
+        }).then(() => {
+            window.location.href = `../pages/reserva.html`;
+        })
 
-    // console.log(turnoAnulado);
-
-
-    // turnoAnulado = servicioAnulado.turnos;
-    // console.log(turnoAnulado);
-
-
-    // const turnosTotales = [...turnosElvira, ...turnosCintya, ...turnosEduardo, ...turnosAlejandra, ...turnosDaniel, ...turnosLeonardo, ...turnosPatricia, ...turnosSilvina, ...turnosSusana];
-    // const turnosReservados = turnosTotales.filter(unTurno => unTurno.nombrePaciente === nombrePaciente && unTurno.nombreCliente === nombreCliente);
-
-    const serviciosTotales = turnosReservados.map(unTurno => `${unTurno.servicio} `);
-    const serviciosNoRepetidos = [...new Set(serviciosTotales)];
-
-    let mensaje = "";
-    serviciosNoRepetidos.forEach((servicio, index) => {
-        mensaje += `${index + 1} - ${servicio} \n`;
-    })
-    reservaAnulada = prompt("Ingrese el ITEM a Anular", mensaje);
-    alert(reservaAnulada);
-    alert(serviciosNoRepetidos);
-    const reservaBajada = (reservaAnulada - 1);
-    alert(reservaBajada);
-    // const servicioAnulado = (serviciosNoRepetidos[reservaBajada]);
-    alert(servicioAnulado);
-
-    if (servicioAnulado === "Clínica general") {
-        alert("estoy bien");
-        alert(turnosElvira);
-
-        const turnosElvira = turnosElvira.filter(turnoNoAnulado => turnoNoAnulado.nombrePaciente === nombrePaciente && turnoNoAnulado.nombreCliente === nombreCliente);
-    } else
-        alert("no es este");
-
-
+    }
 }
+
+
+
 

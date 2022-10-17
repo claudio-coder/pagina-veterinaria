@@ -6,9 +6,6 @@ body {
 
 .clinica__general__reservas {
     width: 100%;
-    // display: grid;
-    // grid-template-columns: repeat(1, 1fr);
-    // grid-template-rows: repeat(3, 1fr);
 
     &_encabezado {
         display: flex;
@@ -55,7 +52,12 @@ body {
 
 }
 
+.grid__anular {
+    display: grid;
+    justify-items: center;
+    align-items: center;
 
+}
 
 .button__reserva--cg {
     background-color: #625380;
@@ -137,10 +139,10 @@ body {
 
 }
 
-.tarjeta_datos_turno {
+.anular_datos_turno {
     background-color: rgb(215, 172, 172);
-    width: 550px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,23 +153,3 @@ body {
     border-radius: $borderRadius10;
 
 }
-
-// .reserva__pedido__datos__personal {
-//     width: 500px;
-//     height: 500px;
-//     display: grid;
-//     grid-template-columns: repeat(1, 1fr);
-//     grid-template-rows: repeat(3, 1fr);
-//     justify-items: center;
-//     align-content: center;
-
-// &__personal {
-//     width: 500px;
-//     height: 400px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-around;
-// }
-
-
-// }

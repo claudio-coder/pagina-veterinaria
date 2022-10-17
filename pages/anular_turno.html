@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <script src="../js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../sass/pages/_turnos.scss" />
+    <link rel="stylesheet" href="../sass/pages/_anular_turno.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap" rel="stylesheet" />
@@ -89,7 +89,7 @@
                 <h4 class="button__turno--cg m-0" id="nombre_servicio"></h4>
             </div class="">
             <div class="tarjeta_datos_ingreso" id="tarjeta_datos">
-                <div class="grid_reservas--cg" id="cualservicio">
+                <div class="grid_reservas--cg" id="anularservicio">
                     <form class="reserva__pedido" id="formulario">
                         <div>
                             <label for="nombre">Ingrese el nombre del paciente</label>
@@ -110,27 +110,33 @@
                         </div>
                     </form>
                 </div>
-                <div class="tarjeta_datos_turno d-none" id="profesional_reserva">
+                <div class="anular_datos_turno d-none" id="anulacion">
                     <div>
-                        <h4 class="m-0  rounded" id="profesional_nombre"> Profesional:</h4>
+                        <h2><span style="color: #1d4f91">Fijate que servicio queres anular</span></h2>
                     </div>
-                    <div>
-                        <h4 class="m-0  rounded" id="profesional_turno">Número de Turno:</h4>
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col text-center">
+                                <h2><span style="color: #1d4f91">SERVICIO</span></h2>
+                            </div>
+                            <div class="col text-center">
+                                <h2><span style="color: #1d4f91">TURNO</span></h2>
+                            </div>
+                            <div class="col">
+
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div>
-                        <h4 class="m-0  rounded" id="nombre_mascota">Nombre de Paciente:</h4>
+                    <div class="container" id="anular_reserva">
                     </div>
-                    <div>
-                        <h4 class="m-0  rounded" id="nombre_propietario">Nombre de Cliente:</h4>
-                    </div>
+
                     <div class="button_aceptar">
 
                         <a href="./reserva.html" class="button_turno">Volver</a>
 
-                        <input type="button" class="button_turno" value="Aceptar" id="boton_aceptar">
-
                     </div>
-
                 </div>
 
             </div>
